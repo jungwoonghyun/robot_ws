@@ -1,0 +1,90 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+WARNING: Package name "safeway_robot_controll_packet_RS485" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485
+[35m[1mConsolidate compiler generated dependencies of target packet_RS485_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target packet_RS485_publisher[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/packet_RS485_publisher.dir/src/packet_RS485_publisher.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/packet_RS485_subscriber.cpp.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_comm.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_crc16.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_recv.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_send.c.o[0m
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kget_motion_stage_name[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:68:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KMOTION_STAGE[m[K’ {aka ‘[01m[Kenum _enum_MOTION_STAGE[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   68 |     if (motionStage >= 0 && motionStage [01;35m[K<[m[K sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0]))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kparse_motion_stage[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:85:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   85 |     for (register int iStage = 0; iStage [01;35m[K<[m[K sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0]); iStage++)
+      |                                          [01;35m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kparse_stop_reason[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:104:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  104 |     for (register int iReason = 0; iReason [01;35m[K<[m[K sizeof(s_rgpszMotionStopReasonNames) / sizeof(s_rgpszMotionStopReasonNames[0]); iReason++)
+      |                                            [01;35m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kparse_reply_command[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:174:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  174 |     for (iArg = 0; nArgRemainLen > 0 && iArg [01;35m[K<[m[K sizeof(rgpArgs)/sizeof(rgpArgs[0]); iArg++)
+      |                                              [01;35m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:262:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnAxesCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  262 |     const int [01;35m[KnAxesCount[m[K = (int)strtol(rgpArgs[2], &pEndStr, 0);
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kparse_recv_packet[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:572:34:[m[K [01;35m[Kwarning: [m[Kpointer targets in passing argument 1 of ‘[01m[Kparse_reply_command[m[K’ differ in signedness [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-sign-Wpointer-sign]8;;[m[K]
+  572 |     return parse_reply_command([01;35m[Kp + 6[m[K, nLen);
+      |                                [01;35m[K~~^~~[m[K
+      |                                  [01;35m[K|[m[K
+      |                                  [01;35m[Kconst unsigned char *[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:128:37:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kconst char *[m[K’ but argument is of type ‘[01m[Kconst unsigned char *[m[K’
+  128 | int parse_reply_command([01;36m[Kconst char* pCmd[m[K, int nPacketLen)
+      |                         [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_send.c:[m[K In function ‘[01m[Kformat_motion_commandv[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_send.c:48:18:[m[K [01;35m[Kwarning: [m[Kpointer targets in initialization of ‘[01m[Kchar *[m[K’ from ‘[01m[Kunsigned char *[m[K’ differ in signedness [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-sign-Wpointer-sign]8;;[m[K]
+   48 |     char* pCmd = [01;35m[Kp[m[K + 6;  // header is 6 bytes
+      |                  [01;35m[K^[m[K
+[ 77%] [32m[1mLinking CXX executable packet_RS485_publisher[0m
+[ 88%] Built target packet_RS485_publisher
+[100%] [32m[1mLinking CXX executable packet_RS485_subscriber[0m
+[100%] Built target packet_RS485_subscriber
+-- Install configuration: "Debug"
+-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_publisher
+-- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_publisher" to ""
+-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_subscriber
+-- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_subscriber" to ""
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/package_run_dependencies/safeway_robot_controll_packet_RS485
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/parent_prefix_path/safeway_robot_controll_packet_RS485
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/ament_prefix_path.sh
+-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/path.sh
+-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/path.dsv
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.bash
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.sh
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.zsh
+-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.dsv
+-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.dsv
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/packages/safeway_robot_controll_packet_RS485
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/cmake/safeway_robot_controll_packet_RS485Config.cmake
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/cmake/safeway_robot_controll_packet_RS485Config-version.cmake
+-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.xml

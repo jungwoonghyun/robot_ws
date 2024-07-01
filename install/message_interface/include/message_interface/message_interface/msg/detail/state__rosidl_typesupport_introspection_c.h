@@ -1,0 +1,1 @@
+/home/robot/robot_ws/build/message_interface/rosidl_typesupport_introspection_c/message_interface/msg/detail/state__rosidl_typesupport_introspection_c.h

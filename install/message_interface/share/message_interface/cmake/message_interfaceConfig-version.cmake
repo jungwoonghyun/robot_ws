@@ -1,0 +1,1 @@
+/home/robot/robot_ws/build/message_interface/ament_cmake_core/message_interfaceConfig-version.cmake

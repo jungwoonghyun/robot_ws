@@ -1,0 +1,17 @@
+[0.095s] Invoking command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485 -- -j4 -l4
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target packet_RS485_subscriber[0m
+[0.183s] [ 37%] Built target packet_RS485_publisher
+[0.193s] [ 50%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_send.cpp.o[0m
+[0.250s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:[m[K In function ‘[01m[Kint format_motion_command(COMM_HANDLE, const char*, ...)[m[K’:
+[0.250s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:23:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kformat_motion_commandv[m[K’ was not declared in this scope; did you mean ‘[01m[Kformat_motion_command[m[K’?
+[0.250s]    23 |     nSentLen = [01;31m[Kformat_motion_commandv[m[K(hComm, pszFormat, arg);
+[0.250s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.250s]       |                [32m[Kformat_motion_command[m[K
+[0.253s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:[m[K At global scope:
+[0.253s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:10:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks_szCmdRBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.253s]    10 | static char [01;35m[Ks_szCmdRBuffer[m[K[MOTION_CMD_BUFFER_SIZE];
+[0.254s]       |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[0.255s] gmake[2]: *** [CMakeFiles/packet_RS485_subscriber.dir/build.make:104: CMakeFiles/packet_RS485_subscriber.dir/src/rs485_send.cpp.o] 오류 1
+[0.255s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/packet_RS485_subscriber.dir/all] 오류 2
+[0.255s] gmake: *** [Makefile:146: all] 오류 2
+[0.318s] Invoked command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485 -- -j4 -l4

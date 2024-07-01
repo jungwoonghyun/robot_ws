@@ -1,0 +1,107 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[33mCMake Warning (dev) at CMakeLists.txt:27 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In constructor ‘[01m[KclusteringNode::clusteringNode()[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:57:49:[m[K [01;31m[Kerror: [m[K‘[01m[KObjectDetectionNode[m[K’ has not been declared
+   57 |             rclcpp::SensorDataQoS(), std::bind(&[01;31m[KObjectDetectionNode[m[K::msgCallback_state, this, std::placeholders::_1));//#
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K At global scope:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:135:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObjectDetectionNode[m[K’ has not been declared
+  135 | void [01;31m[KObjectDetectionNode[m[K::msgCallback_state(const message_interface::msg::Mode & msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In function ‘[01m[Kvoid msgCallback_state(const Mode&)[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:137:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatx[m[K’?
+  137 |     [01;31m[Kstate[m[K = msg.modenum;
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Kstatx[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:21[m[K:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  138 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Receive %d mode num from esp, Change\r\n", state);
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  138 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Receive %d mode num from esp, Change\r\n", state);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  138 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Receive %d mode num from esp, Change\r\n", state);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  138 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Receive %d mode num from esp, Change\r\n", state);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  138 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Receive %d mode num from esp, Change\r\n", state);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  138 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Receive %d mode num from esp, Change\r\n", state);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:21[m[K:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  138 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Receive %d mode num from esp, Change\r\n", state);
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:138:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  138 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Receive %d mode num from esp, Change\r\n", state);
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::timer_callback()[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:146:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  146 |     int [01;35m[Klost[m[K, collision;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:149:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_angular[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  149 |     double [01;35m[Kscale_angular[m[K = scale_linear * (455.0 / (508.0 * M_PI));
+      |            [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:150:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspd_right[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  150 |     double [01;35m[Kspd_right[m[K, spd_left;
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:150:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspd_left[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  150 |     double spd_right, [01;35m[Kspd_left[m[K;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::mapOutPub(std::vector<ObjInfo>, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:467:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  467 |         sensor_msgs::[01;35m[KconvertPointCloudToPointCloud2[m[K(out_msg, out_msg2);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:467:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  467 |         [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(out_msg, out_msg2)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/clustering.dir/build.make:76: CMakeFiles/clustering.dir/src/clustering.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/clustering.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

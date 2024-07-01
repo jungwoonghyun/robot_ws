@@ -1,0 +1,26 @@
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:23[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::MapDownsampling()[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:141:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint[m[K’ was not declared in this scope
+  141 |         [01;31m[Kprint[m[K("map cloud is not empty\n");
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:141:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:53[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/console/print.h:269:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::console::print[m[K’
+  269 |     [01;36m[Kprint[m[K (VERBOSITY_LEVEL level, const char *format, ...);
+      |     [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:41[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:6[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:835:8:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::print[m[K’
+  835 | Packet [01;36m[Kprint[m[K(const Packet& a) { using numext::rint; return rint(a); }
+      |        [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/clustering.dir/build.make:76: CMakeFiles/clustering.dir/src/clustering.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/clustering.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

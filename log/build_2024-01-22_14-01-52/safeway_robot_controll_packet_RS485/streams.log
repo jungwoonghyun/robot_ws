@@ -1,0 +1,42 @@
+[0.094s] Invoking command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485 -- -j4 -l4
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target packet_RS485_publisher[0m
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target packet_RS485_subscriber[0m
+[0.216s] [ 12%] [32mBuilding CXX object CMakeFiles/packet_RS485_publisher.dir/src/packet_RS485_publisher.cpp.o[0m
+[0.227s] [ 37%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_comm.cpp.o[0m
+[0.228s] [ 37%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/packet_RS485_subscriber.cpp.o[0m
+[0.229s] [ 50%] [32mBuilding CXX object CMakeFiles/packet_RS485_publisher.dir/src/keyboard_setting_function.cpp.o[0m
+[0.480s] [ 62%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_send.cpp.o[0m
+[0.582s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:10:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks_szCmdRBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.582s]    10 | static char [01;35m[Ks_szCmdRBuffer[m[K[MOTION_CMD_BUFFER_SIZE];
+[0.582s]       |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[0.634s] [ 75%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_crc16.cpp.o[0m
+[6.107s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:36:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[6.107s]    36 | static char *pszDevName = [01;35m[K"/dev/ttyUSB0"[m[K;
+[6.108s]       |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[11.791s] [ 87%] [32m[1mLinking CXX executable packet_RS485_publisher[0m
+[12.470s] [ 87%] Built target packet_RS485_publisher
+[17.607s] [100%] [32m[1mLinking CXX executable packet_RS485_subscriber[0m
+[18.130s] [100%] Built target packet_RS485_subscriber
+[18.144s] Invoked command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485 -- -j4 -l4
+[18.188s] Invoking command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485
+[18.196s] -- Install configuration: "Debug"
+[18.197s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_publisher
+[18.204s] -- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_publisher" to ""
+[18.204s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_subscriber
+[18.217s] -- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_subscriber" to ""
+[18.218s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/package_run_dependencies/safeway_robot_controll_packet_RS485
+[18.218s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/parent_prefix_path/safeway_robot_controll_packet_RS485
+[18.218s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/ament_prefix_path.sh
+[18.219s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/ament_prefix_path.dsv
+[18.219s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/path.sh
+[18.219s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/path.dsv
+[18.220s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.bash
+[18.220s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.sh
+[18.220s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.zsh
+[18.220s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.dsv
+[18.220s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.dsv
+[18.220s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/packages/safeway_robot_controll_packet_RS485
+[18.220s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/cmake/safeway_robot_controll_packet_RS485Config.cmake
+[18.220s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/cmake/safeway_robot_controll_packet_RS485Config-version.cmake
+[18.220s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.xml
+[18.222s] Invoked command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485

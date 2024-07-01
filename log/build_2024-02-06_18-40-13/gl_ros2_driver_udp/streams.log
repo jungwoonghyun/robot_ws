@@ -1,0 +1,80 @@
+[0.319s] Invoking command in '/home/robot/robot_ws/build/gl_ros2_driver_udp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/gl_ros2_driver_udp -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/install/gl_ros2_driver_udp
+[0.418s] -- The C compiler identification is GNU 11.4.0
+[0.533s] -- The CXX compiler identification is GNU 11.4.0
+[0.549s] -- Detecting C compiler ABI info
+[0.664s] -- Detecting C compiler ABI info - done
+[0.677s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.679s] -- Detecting C compile features
+[0.681s] -- Detecting C compile features - done
+[0.687s] -- Detecting CXX compiler ABI info
+[0.806s] -- Detecting CXX compiler ABI info - done
+[0.816s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.816s] -- Detecting CXX compile features
+[0.817s] -- Detecting CXX compile features - done
+[0.820s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.088s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.220s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.279s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.285s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.297s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.449s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.453s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.656s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.714s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.817s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.823s] -- Looking for pthread.h
+[1.928s] -- Looking for pthread.h - found
+[1.936s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.019s] -- Found Threads: TRUE  
+[2.237s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.461s] -- Configuring done
+[2.475s] -- Generating done
+[2.478s] -- Build files have been written to: /home/robot/robot_ws/build/gl_ros2_driver_udp
+[2.487s] Invoked command in '/home/robot/robot_ws/build/gl_ros2_driver_udp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/gl_ros2_driver_udp -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/install/gl_ros2_driver_udp
+[2.488s] Invoking command in '/home/robot/robot_ws/build/gl_ros2_driver_udp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/gl_ros2_driver_udp -- -j4 -l4
+[2.562s] [  9%] [32mBuilding CXX object CMakeFiles/serial.dir/include/gl_driver_libraries/serial/serial.cc.o[0m
+[2.567s] [ 18%] [32mBuilding CXX object CMakeFiles/serial.dir/include/gl_driver_libraries/serial/list_ports_linux.cc.o[0m
+[2.572s] [ 27%] [32mBuilding CXX object CMakeFiles/gl_driver.dir/include/gl_driver_libraries/gl_driver.cpp.o[0m
+[2.572s] [ 36%] [32mBuilding CXX object CMakeFiles/udp.dir/include/gl_driver_libraries/udp/udp.cpp.o[0m
+[3.240s] [ 45%] [32m[1mLinking CXX shared library libudp.so[0m
+[3.286s] [ 54%] [32mBuilding CXX object CMakeFiles/serial.dir/include/gl_driver_libraries/serial/unix.cc.o[0m
+[3.347s] [ 54%] Built target udp
+[3.357s] [ 63%] [32mBuilding CXX object CMakeFiles/serial.dir/include/gl_driver_libraries/serial/win.cc.o[0m
+[3.706s] [ 72%] [32m[1mLinking CXX shared library libgl_driver.so[0m
+[3.785s] [ 81%] [32m[1mLinking CXX shared library libserial.so[0m
+[3.803s] [ 81%] Built target gl_driver
+[3.874s] [ 81%] Built target serial
+[3.894s] [ 90%] [32mBuilding CXX object CMakeFiles/gl_ros2_driver_udp_node.dir/src/gl_ros2_driver_udp_node.cpp.o[0m
+[9.206s] [100%] [32m[1mLinking CXX executable gl_ros2_driver_udp_node[0m
+[9.456s] [100%] Built target gl_ros2_driver_udp_node
+[9.467s] Invoked command in '/home/robot/robot_ws/build/gl_ros2_driver_udp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/gl_ros2_driver_udp -- -j4 -l4
+[9.514s] Invoking command in '/home/robot/robot_ws/build/gl_ros2_driver_udp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/gl_ros2_driver_udp
+[9.522s] -- Install configuration: "Debug"
+[9.522s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/lib/gl_ros2_driver_udp/gl_ros2_driver_udp_node
+[9.526s] -- Set runtime path of "/home/robot/robot_ws/install/gl_ros2_driver_udp/lib/gl_ros2_driver_udp/gl_ros2_driver_udp_node" to ""
+[9.526s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch
+[9.526s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch/gl_ros2_driver_udp.py
+[9.526s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch/view_gl_ros2_driver_udp.py
+[9.526s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch/__pycache__
+[9.526s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch/__pycache__/view_gl_ros2_driver_udp.cpython-310.pyc
+[9.528s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/rviz
+[9.528s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/rviz/config.rviz
+[9.528s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/ament_index/resource_index/package_run_dependencies/gl_ros2_driver_udp
+[9.528s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/ament_index/resource_index/parent_prefix_path/gl_ros2_driver_udp
+[9.528s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/environment/ament_prefix_path.sh
+[9.528s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/environment/ament_prefix_path.dsv
+[9.529s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/environment/path.sh
+[9.529s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/environment/path.dsv
+[9.529s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/local_setup.bash
+[9.529s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/local_setup.sh
+[9.529s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/local_setup.zsh
+[9.529s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/local_setup.dsv
+[9.530s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/package.dsv
+[9.530s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/ament_index/resource_index/packages/gl_ros2_driver_udp
+[9.530s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/cmake/gl_ros2_driver_udpConfig.cmake
+[9.530s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/cmake/gl_ros2_driver_udpConfig-version.cmake
+[9.530s] -- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/package.xml
+[9.531s] Invoked command in '/home/robot/robot_ws/build/gl_ros2_driver_udp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/gl_ros2_driver_udp

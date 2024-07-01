@@ -1,0 +1,75 @@
+[0.091s] Invoking command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485 -- -j4 -l4
+[0.129s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.374s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.426s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.442s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.568s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.570s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.909s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.965s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.029s] WARNING: Package name "safeway_robot_controll_packet_RS485" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.050s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.051s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.052s] -- Configured cppcheck include dirs: /home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/include
+[1.052s] -- Configured cppcheck exclude dirs and/or files: 
+[1.054s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.054s] -- Configured cpplint exclude dirs and/or files: 
+[1.054s] -- Added test 'lint_cmake' to check CMake code style
+[1.058s] -- Added test 'uncrustify' to check C / C++ code style
+[1.058s] -- Configured uncrustify additional arguments: 
+[1.058s] -- Added test 'xmllint' to check XML markup files
+[1.058s] -- Configuring done
+[1.074s] -- Generating done
+[1.076s] -- Build files have been written to: /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485
+[1.106s] [35m[1mConsolidate compiler generated dependencies of target packet_RS485_publisher[0m
+[1.107s] [35m[1mConsolidate compiler generated dependencies of target packet_RS485_subscriber[0m
+[1.131s] [ 25%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_comm.cpp.o[0m
+[1.132s] [ 25%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/packet_RS485_subscriber.cpp.o[0m
+[1.143s] [ 37%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_send.cpp.o[0m
+[1.147s] [ 75%] Built target packet_RS485_publisher
+[1.207s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:[m[K In function ‘[01m[Kint format_motion_command(COMM_HANDLE, const char*, ...)[m[K’:
+[1.207s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:23:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kformat_motion_commandv[m[K’ was not declared in this scope; did you mean ‘[01m[Kformat_motion_command[m[K’?
+[1.208s]    23 |     nSentLen = [01;31m[Kformat_motion_commandv[m[K(hComm, pszFormat, arg);
+[1.208s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.209s]       |                [32m[Kformat_motion_command[m[K
+[1.210s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:[m[K In function ‘[01m[Kint format_motion_commandv(COMM_HANDLE, const char*, __va_list_tag*)[m[K’:
+[1.210s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:32:20:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kunsigned char*[m[K’ to ‘[01m[Kchar*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.210s]    32 |     char* pCmd = [01;31m[Kp + 6[m[K;  // header is 6 bytes
+[1.210s]       |                  [01;31m[K~~^~~[m[K
+[1.210s]       |                    [01;31m[K|[m[K
+[1.210s]       |                    [01;31m[Kunsigned char*[m[K
+[1.214s] [ 87%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_crc16.cpp.o[0m
+[1.215s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:57:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalc_crc16[m[K’ was not declared in this scope
+[1.215s]    57 |     unsigned crc16 = [01;31m[Kcalc_crc16[m[K(p + 1, nLen + 5);
+[1.217s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[1.217s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:62:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend_comm_dev[m[K’ was not declared in this scope; did you mean ‘[01m[Kopen_comm_dev[m[K’?
+[1.217s]    62 |     int nSentLen = [01;31m[Ksend_comm_dev[m[K(hComm, p, 10 + nLen);
+[1.217s]       |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[1.217s]       |                    [32m[Kopen_comm_dev[m[K
+[1.217s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:[m[K At global scope:
+[1.217s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:10:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks_szCmdRBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.217s]    10 | static char [01;35m[Ks_szCmdRBuffer[m[K[MOTION_CMD_BUFFER_SIZE];
+[1.218s]       |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.218s] gmake[2]: *** [CMakeFiles/packet_RS485_subscriber.dir/build.make:104: CMakeFiles/packet_RS485_subscriber.dir/src/rs485_send.cpp.o] 오류 1
+[1.218s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[4.071s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:36:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[4.071s]    36 | static char *pszDevName = [01;35m[K"/dev/ttyUSB0"[m[K;
+[4.071s]       |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.154s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:[m[K In member function ‘[01m[Kvoid PacketRS485Subscriber::subscribe_topic_message(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.154s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:65:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kspd_right[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.154s]    65 |     double [01;35m[Kspd_right[m[K, spd_left;
+[4.154s]       |            [01;35m[K^~~~~~~~~[m[K
+[4.154s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:65:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kspd_left[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[4.155s]    65 |     double spd_right, [01;35m[Kspd_left[m[K;
+[4.155s]       |                       [01;35m[K^~~~~~~~[m[K
+[4.158s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.158s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:86:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KhComm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.159s]    86 |   COMM_HANDLE [01;35m[KhComm[m[K = open_comm_dev(pszDevName, nBaud);
+[4.159s]       |               [01;35m[K^~~~~[m[K
+[12.229s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/packet_RS485_subscriber.dir/all] 오류 2
+[12.230s] gmake: *** [Makefile:146: all] 오류 2
+[12.232s] Invoked command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485 -- -j4 -l4

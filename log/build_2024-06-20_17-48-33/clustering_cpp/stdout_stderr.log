@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target clustering[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/clustering.dir/src/clustering.cpp.o[0m
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:26[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::timer_callback()[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:286:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kmessage_interface::msg::Mode[m[K’ {aka ‘[01m[Kmessage_interface::msg::Mode_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+  286 |         target_state = [01;31m[Ktarget_detecting_state[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/robot_ws/build/message_interface/rosidl_generator_cpp/message_interface/msg/mode.hpp:7[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:30[m[K:
+[01m[K/home/robot/robot_ws/build/message_interface/rosidl_generator_cpp/message_interface/msg/detail/mode__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr message_interface::msg::Mode_<std::allocator<void> >& message_interface::msg::Mode_<std::allocator<void> >::operator=(const message_interface::msg::Mode_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KMode_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/home/robot/robot_ws/build/message_interface/rosidl_generator_cpp/message_interface/msg/detail/mode__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst message_interface::msg::Mode_<std::allocator<void> >&[m[K’
+[01m[K/home/robot/robot_ws/build/message_interface/rosidl_generator_cpp/message_interface/msg/detail/mode__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr message_interface::msg::Mode_<std::allocator<void> >& message_interface::msg::Mode_<std::allocator<void> >::operator=(message_interface::msg::Mode_<std::allocator<void> >&&)[m[K’
+[01m[K/home/robot/robot_ws/build/message_interface/rosidl_generator_cpp/message_interface/msg/detail/mode__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kmessage_interface::msg::Mode_<std::allocator<void> >&&[m[K’
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:321:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  321 |     target_detecting_state[01;31m[K->[m[Kpublish(target_state);
+      |                           [01;31m[K^~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:173:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  173 |     int [01;35m[Klost[m[K, collision = 1;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:174:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |     double [01;35m[Klinear_kp[m[K = 0.8, linear_ki = 0.15, linear_kd = 0, weight_linear = 0.9, weight_angular = 0.95;
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:174:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |     double linear_kp = 0.8, [01;35m[Klinear_ki[m[K = 0.15, linear_kd = 0, weight_linear = 0.9, weight_angular = 0.95;
+      |                             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:174:47:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  174 |     double linear_kp = 0.8, linear_ki = 0.15, [01;35m[Klinear_kd[m[K = 0, weight_linear = 0.9, weight_angular = 0.95;
+      |                                               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::mapOutPub(std::vector<ObjInfo>, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:645:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  645 |         sensor_msgs::[01;35m[KconvertPointCloudToPointCloud2[m[K(out_msg, out_msg2);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:26[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:645:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  645 |         [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(out_msg, out_msg2)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:26[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/clustering.dir/build.make:76: CMakeFiles/clustering.dir/src/clustering.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/clustering.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

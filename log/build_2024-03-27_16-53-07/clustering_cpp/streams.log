@@ -1,0 +1,49 @@
+[0.393s] Invoking command in '/home/robot/robot_ws/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/clustering_cpp -- -j4 -l4
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target clustering[0m
+[0.591s] [ 50%] [32mBuilding CXX object CMakeFiles/clustering.dir/src/clustering.cpp.o[0m
+[5.375s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[5.375s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.375s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[5.376s]       |      [01;35m[K^~~~~~~[m[K
+[13.244s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::timer_callback()[m[K’:
+[13.244s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:129:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.244s]   129 |     int [01;35m[Klost[m[K;
+[13.244s]       |         [01;35m[K^~~~[m[K
+[13.289s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::mapOutPub(std::vector<ObjInfo>, int)[m[K’:
+[13.289s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:389:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.289s]   389 |         sensor_msgs::[01;35m[KconvertPointCloudToPointCloud2[m[K(out_msg, out_msg2);
+[13.289s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.289s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[13.289s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.289s]    81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+[13.290s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.290s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:389:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.290s]   389 |         [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(out_msg, out_msg2)[m[K;
+[13.290s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[13.290s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:25[m[K:
+[13.290s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.290s]    81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+[13.290s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.546s] [100%] [32m[1mLinking CXX executable clustering[0m
+[28.682s] [100%] Built target clustering
+[28.696s] Invoked command in '/home/robot/robot_ws/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/clustering_cpp -- -j4 -l4
+[28.733s] Invoking command in '/home/robot/robot_ws/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/clustering_cpp
+[28.741s] -- Install configuration: ""
+[28.742s] -- Installing: /home/robot/robot_ws/install/clustering_cpp/lib/clustering_cpp/clustering
+[28.749s] -- Set runtime path of "/home/robot/robot_ws/install/clustering_cpp/lib/clustering_cpp/clustering" to ""
+[28.749s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/ament_index/resource_index/package_run_dependencies/clustering_cpp
+[28.751s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/ament_index/resource_index/parent_prefix_path/clustering_cpp
+[28.751s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.sh
+[28.751s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.dsv
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/environment/path.sh
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/environment/path.dsv
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/local_setup.bash
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/local_setup.sh
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/local_setup.zsh
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/local_setup.dsv
+[28.752s] -- Installing: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/package.dsv
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/ament_index/resource_index/packages/clustering_cpp
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig.cmake
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig-version.cmake
+[28.752s] -- Up-to-date: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/package.xml
+[28.753s] Invoked command in '/home/robot/robot_ws/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/clustering_cpp

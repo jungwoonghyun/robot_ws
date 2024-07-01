@@ -1,0 +1,236 @@
+[0.000000] (-) TimerEvent: {}
+[0.000465] (my_first_ros_rclcpp_pkg) JobQueued: {'identifier': 'my_first_ros_rclcpp_pkg', 'dependencies': OrderedDict()}
+[0.000635] (safeway_robot_controll_packet_RS485) JobQueued: {'identifier': 'safeway_robot_controll_packet_RS485', 'dependencies': OrderedDict()}
+[0.000715] (my_first_ros_rclcpp_pkg) JobStarted: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.089516] (safeway_robot_controll_packet_RS485) JobStarted: {'identifier': 'safeway_robot_controll_packet_RS485'}
+[0.099766] (-) TimerEvent: {}
+[0.167466] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'cmake'}
+[0.168180] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'build'}
+[0.169729] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/148/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/148/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/148/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/148/usr/share/code/code'), ('MANAGERPID', '1446'), ('SYSTEMD_EXEC_PID', '1790'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25013'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:30565'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1767,unix/robot:/tmp/.ICE-unix/1767'), ('GTK_EXE_PREFIX', '/snap/code/148/usr'), ('INVOCATION_ID', '73ec0bf21a6e4da289c7a38ecf5b94b1'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/148/usr/lib/locale'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ebe1fd4541.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/148/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/robot/snap/code/148/.local/share:/home/robot/snap/code/148:/snap/code/148/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.176069] (safeway_robot_controll_packet_RS485) JobProgress: {'identifier': 'safeway_robot_controll_packet_RS485', 'progress': 'cmake'}
+[0.178918] (safeway_robot_controll_packet_RS485) JobProgress: {'identifier': 'safeway_robot_controll_packet_RS485', 'progress': 'build'}
+[0.179498] (safeway_robot_controll_packet_RS485) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485', '--', '-j4', '-l4'], 'cwd': '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/148/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/148/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/148/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/148/usr/share/code/code'), ('MANAGERPID', '1446'), ('SYSTEMD_EXEC_PID', '1790'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25013'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:30565'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1767,unix/robot:/tmp/.ICE-unix/1767'), ('GTK_EXE_PREFIX', '/snap/code/148/usr'), ('INVOCATION_ID', '73ec0bf21a6e4da289c7a38ecf5b94b1'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/148/usr/lib/locale'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ebe1fd4541.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/148/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/robot/snap/code/148/.local/share:/home/robot/snap/code/148:/snap/code/148/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199891] (-) TimerEvent: {}
+[0.218951] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.291487] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 50%] Built target helloworld_publisher\n'}
+[0.296842] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[100%] Built target helloworld_subscriber\n'}
+[0.304988] (-) TimerEvent: {}
+[0.318480] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[0.362022] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'install'}
+[0.373291] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg'], 'cwd': '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/148/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.85.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/148/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/148/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/148/usr/share/code/code'), ('MANAGERPID', '1446'), ('SYSTEMD_EXEC_PID', '1790'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25013'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:30565'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1767,unix/robot:/tmp/.ICE-unix/1767'), ('GTK_EXE_PREFIX', '/snap/code/148/usr'), ('INVOCATION_ID', '73ec0bf21a6e4da289c7a38ecf5b94b1'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/148/usr/lib/locale'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ebe1fd4541.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/148/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/robot/snap/code/148/.local/share:/home/robot/snap/code/148:/snap/code/148/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.385016] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.385339] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_publisher\n'}
+[0.388972] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_subscriber\n'}
+[0.389482] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg\n'}
+[0.389840] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg\n'}
+[0.390138] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh\n'}
+[0.390580] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv\n'}
+[0.390876] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh\n'}
+[0.391142] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv\n'}
+[0.391405] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash\n'}
+[0.391652] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh\n'}
+[0.391895] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh\n'}
+[0.392144] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv\n'}
+[0.392389] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv\n'}
+[0.392848] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg\n'}
+[0.393102] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake\n'}
+[0.393323] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake\n'}
+[0.393574] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml\n'}
+[0.398232] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[0.402837] (-) TimerEvent: {}
+[0.463923] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.502971] (-) TimerEvent: {}
+[0.515786] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.520088] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.531644] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.551571] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.578834] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.603467] (-) TimerEvent: {}
+[0.638453] (my_first_ros_rclcpp_pkg) JobEnded: {'identifier': 'my_first_ros_rclcpp_pkg', 'rc': 0}
+[0.657393] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.659304] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.703581] (-) TimerEvent: {}
+[0.803711] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.803938] (-) TimerEvent: {}
+[0.904182] (-) TimerEvent: {}
+[0.998121] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.004286] (-) TimerEvent: {}
+[1.054792] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.104382] (-) TimerEvent: {}
+[1.118457] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'WARNING: Package name "safeway_robot_controll_packet_RS485" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.139518] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.141075] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.141928] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/include\n'}
+[1.142170] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.143347] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.143541] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.143992] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.147407] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.147591] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.147682] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.147767] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.163400] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Generating done\n'}
+[1.165939] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485\n'}
+[1.195013] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target packet_RS485_publisher\x1b[0m\n'}
+[1.196307] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target packet_RS485_subscriber\x1b[0m\n'}
+[1.204486] (-) TimerEvent: {}
+[1.218945] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_comm.cpp.o\x1b[0m\n'}
+[1.221118] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/packet_RS485_subscriber.cpp.o\x1b[0m\n'}
+[1.232138] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_send.cpp.o\x1b[0m\n'}
+[1.237043] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 75%] Built target packet_RS485_publisher\n'}
+[1.295858] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint format_motion_command(COMM_HANDLE, const char*, ...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.296715] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:23:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kformat_motion_commandv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kformat_motion_command\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.297318] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   23 |     nSentLen = \x1b[01;31m\x1b[Kformat_motion_commandv\x1b[m\x1b[K(hComm, pszFormat, arg);\n'}
+[1.297904] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.299084] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                \x1b[32m\x1b[Kformat_motion_command\x1b[m\x1b[K\n'}
+[1.299295] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint format_motion_commandv(COMM_HANDLE, const char*, __va_list_tag*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.299394] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:32:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kunsigned char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.299500] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   32 |     char* pCmd = \x1b[01;31m\x1b[Kp + 6\x1b[m\x1b[K;  // header is 6 bytes\n'}
+[1.299588] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~^~~\x1b[m\x1b[K\n'}
+[1.299670] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.299750] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[Kunsigned char*\x1b[m\x1b[K\n'}
+[1.304026] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/rs485_crc16.cpp.o\x1b[0m\n'}
+[1.304251] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:57:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcalc_crc16\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.304383] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   57 |     unsigned crc16 = \x1b[01;31m\x1b[Kcalc_crc16\x1b[m\x1b[K(p + 1, nLen + 5);\n'}
+[1.304481] (-) TimerEvent: {}
+[1.306365] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.306559] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:62:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksend_comm_dev\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kopen_comm_dev\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.306662] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   62 |     int nSentLen = \x1b[01;31m\x1b[Ksend_comm_dev\x1b[m\x1b[K(hComm, p, 10 + nLen);\n'}
+[1.306753] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.306835] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kopen_comm_dev\x1b[m\x1b[K\n'}
+[1.306915] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.306995] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/rs485_send.cpp:10:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks_szCmdRBuffer\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.307080] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   10 | static char \x1b[01;35m\x1b[Ks_szCmdRBuffer\x1b[m\x1b[K[MOTION_CMD_BUFFER_SIZE];\n'}
+[1.307247] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.307339] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/packet_RS485_subscriber.dir/build.make:104: CMakeFiles/packet_RS485_subscriber.dir/src/rs485_send.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[1.307434] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'gmake[2]: *** \xeb\x81\x9d\xeb\x82\x98\xec\xa7\x80 \xec\x95\x8a\xec\x9d\x80 \xec\x9e\x91\xec\x97\x85\xec\x9d\x84 \xea\xb8\xb0\xeb\x8b\xa4\xeb\xa6\xac\xea\xb3\xa0 \xec\x9e\x88\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4....\n'}
+[1.404596] (-) TimerEvent: {}
+[1.504955] (-) TimerEvent: {}
+[1.605272] (-) TimerEvent: {}
+[1.705627] (-) TimerEvent: {}
+[1.805953] (-) TimerEvent: {}
+[1.906289] (-) TimerEvent: {}
+[2.006616] (-) TimerEvent: {}
+[2.106936] (-) TimerEvent: {}
+[2.207253] (-) TimerEvent: {}
+[2.307573] (-) TimerEvent: {}
+[2.407934] (-) TimerEvent: {}
+[2.508242] (-) TimerEvent: {}
+[2.608553] (-) TimerEvent: {}
+[2.708896] (-) TimerEvent: {}
+[2.809226] (-) TimerEvent: {}
+[2.909542] (-) TimerEvent: {}
+[3.009860] (-) TimerEvent: {}
+[3.110190] (-) TimerEvent: {}
+[3.210508] (-) TimerEvent: {}
+[3.310831] (-) TimerEvent: {}
+[3.411142] (-) TimerEvent: {}
+[3.511466] (-) TimerEvent: {}
+[3.611803] (-) TimerEvent: {}
+[3.712131] (-) TimerEvent: {}
+[3.812447] (-) TimerEvent: {}
+[3.912770] (-) TimerEvent: {}
+[4.013153] (-) TimerEvent: {}
+[4.113488] (-) TimerEvent: {}
+[4.160180] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:36:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.160393] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   36 | static char *pszDevName = \x1b[01;35m\x1b[K"/dev/ttyUSB0"\x1b[m\x1b[K;\n'}
+[4.160486] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.213599] (-) TimerEvent: {}
+[4.243632] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PacketRS485Subscriber::subscribe_topic_message(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.243844] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:65:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kspd_right\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.243977] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   65 |     double \x1b[01;35m\x1b[Kspd_right\x1b[m\x1b[K, spd_left;\n'}
+[4.244070] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.244168] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:65:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kspd_left\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.244290] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   65 |     double spd_right, \x1b[01;35m\x1b[Kspd_left\x1b[m\x1b[K;\n'}
+[4.244366] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.247935] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.248114] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:86:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KhComm\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.248212] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   86 |   COMM_HANDLE \x1b[01;35m\x1b[KhComm\x1b[m\x1b[K = open_comm_dev(pszDevName, nBaud);\n'}
+[4.248289] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.313729] (-) TimerEvent: {}
+[4.414076] (-) TimerEvent: {}
+[4.514609] (-) TimerEvent: {}
+[4.614967] (-) TimerEvent: {}
+[4.715352] (-) TimerEvent: {}
+[4.815655] (-) TimerEvent: {}
+[4.915957] (-) TimerEvent: {}
+[5.016265] (-) TimerEvent: {}
+[5.116627] (-) TimerEvent: {}
+[5.216956] (-) TimerEvent: {}
+[5.317281] (-) TimerEvent: {}
+[5.417607] (-) TimerEvent: {}
+[5.517952] (-) TimerEvent: {}
+[5.618280] (-) TimerEvent: {}
+[5.718589] (-) TimerEvent: {}
+[5.818910] (-) TimerEvent: {}
+[5.919259] (-) TimerEvent: {}
+[6.019626] (-) TimerEvent: {}
+[6.119958] (-) TimerEvent: {}
+[6.220264] (-) TimerEvent: {}
+[6.320602] (-) TimerEvent: {}
+[6.420912] (-) TimerEvent: {}
+[6.521213] (-) TimerEvent: {}
+[6.621531] (-) TimerEvent: {}
+[6.721850] (-) TimerEvent: {}
+[6.822169] (-) TimerEvent: {}
+[6.922466] (-) TimerEvent: {}
+[7.022767] (-) TimerEvent: {}
+[7.123083] (-) TimerEvent: {}
+[7.223383] (-) TimerEvent: {}
+[7.323685] (-) TimerEvent: {}
+[7.424007] (-) TimerEvent: {}
+[7.524321] (-) TimerEvent: {}
+[7.624667] (-) TimerEvent: {}
+[7.724981] (-) TimerEvent: {}
+[7.825359] (-) TimerEvent: {}
+[7.925707] (-) TimerEvent: {}
+[8.026001] (-) TimerEvent: {}
+[8.126357] (-) TimerEvent: {}
+[8.226650] (-) TimerEvent: {}
+[8.326941] (-) TimerEvent: {}
+[8.427234] (-) TimerEvent: {}
+[8.527523] (-) TimerEvent: {}
+[8.627810] (-) TimerEvent: {}
+[8.728099] (-) TimerEvent: {}
+[8.828396] (-) TimerEvent: {}
+[8.928701] (-) TimerEvent: {}
+[9.028998] (-) TimerEvent: {}
+[9.129288] (-) TimerEvent: {}
+[9.229579] (-) TimerEvent: {}
+[9.329866] (-) TimerEvent: {}
+[9.430196] (-) TimerEvent: {}
+[9.530477] (-) TimerEvent: {}
+[9.630770] (-) TimerEvent: {}
+[9.731058] (-) TimerEvent: {}
+[9.831353] (-) TimerEvent: {}
+[9.931712] (-) TimerEvent: {}
+[10.032021] (-) TimerEvent: {}
+[10.132324] (-) TimerEvent: {}
+[10.232610] (-) TimerEvent: {}
+[10.332893] (-) TimerEvent: {}
+[10.433182] (-) TimerEvent: {}
+[10.533481] (-) TimerEvent: {}
+[10.633783] (-) TimerEvent: {}
+[10.734091] (-) TimerEvent: {}
+[10.834406] (-) TimerEvent: {}
+[10.934717] (-) TimerEvent: {}
+[11.035013] (-) TimerEvent: {}
+[11.135351] (-) TimerEvent: {}
+[11.235749] (-) TimerEvent: {}
+[11.336148] (-) TimerEvent: {}
+[11.436505] (-) TimerEvent: {}
+[11.536965] (-) TimerEvent: {}
+[11.637294] (-) TimerEvent: {}
+[11.737747] (-) TimerEvent: {}
+[11.838077] (-) TimerEvent: {}
+[11.938424] (-) TimerEvent: {}
+[12.038736] (-) TimerEvent: {}
+[12.139058] (-) TimerEvent: {}
+[12.239374] (-) TimerEvent: {}
+[12.319026] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/packet_RS485_subscriber.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[12.319367] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[12.321306] (safeway_robot_controll_packet_RS485) CommandEnded: {'returncode': 2}
+[12.339477] (-) TimerEvent: {}
+[12.439439] (safeway_robot_controll_packet_RS485) JobEnded: {'identifier': 'safeway_robot_controll_packet_RS485', 'rc': 2}
+[12.439941] (-) TimerEvent: {}
+[12.450098] (-) EventReactorShutdown: {}

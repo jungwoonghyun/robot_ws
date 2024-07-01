@@ -1,0 +1,7 @@
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber.cpp:42:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   42 | static char *pszDevName = [01;35m[K"/dev/ttySerial"[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber.cpp:[m[K In member function ‘[01m[Kvoid PacketRS485Subscriber::subscribe_topic_message(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber.cpp:147:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Know_tm[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  147 |     std::tm [01;35m[Know_tm[m[K = *std::localtime(&now_time_t);
+      |             [01;35m[K^~~~~~[m[K

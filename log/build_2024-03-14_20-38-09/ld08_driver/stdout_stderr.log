@@ -1,0 +1,15 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/lipkg.cpp:[m[K In member function ‘[01m[Kvoid LiPkg::ToLaserscan(std::vector<PointData>)[m[K’:
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/lipkg.cpp:265:34:[m[K [01;31m[Kerror: [m[K‘[01m[KNaN[m[K’ was not declared in this scope; did you mean ‘[01m[KNAN[m[K’?
+  265 |       if(output.ranges[index] == [01;31m[KNaN[m[K)
+      |                                  [01;31m[K^~~[m[K
+      |                                  [32m[KNAN[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/lipkg.cpp:267:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  267 |         output.ranges[index] = range_max
+      |                                         [01;31m[K^[m[K
+      |                                         [32m[K;[m[K
+  268 |       [32m[K}[m[K
+      |       [32m[K~[m[K                                  
+gmake[2]: *** [CMakeFiles/ld08_driver.dir/build.make:90: CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ld08_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

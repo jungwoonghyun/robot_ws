@@ -1,0 +1,578 @@
+/usr/bin/ld: In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:26[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  337 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  368 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  318 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY[m[K’
+  411 |     [01;36m[KPCL_ADD_INTENSITY[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  411 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K
+      |                      [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_8U[m[K’
+  437 |     [01;36m[KPCL_ADD_INTENSITY_8U[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  437 |     PCL_ADD_INTENSITY_8U[01;35m[K;[m[K
+      |                         [01;35m[K^[m[K
+      |                         [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  330 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_32U[m[K’
+  469 |     [01;36m[KPCL_ADD_INTENSITY_32U[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  469 |     PCL_ADD_INTENSITY_32U[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  497 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  501 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  533 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  573 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  574 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  629 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  630 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  636 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  637 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  741 |     [01;36m[KPCL_ADD_POINT4D[m[K; // this adds the members x,y,z
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  745 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  782 |     [01;36m[KPCL_ADD_POINT4D[m[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  786 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  867 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  871 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  883 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  887 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  924 |     [01;36m[KPCL_ADD_NORMAL4D[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  955 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  956 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  960 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1001 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1002 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+ 1007 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1007 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1006 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1085 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1086 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1090 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1135 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1136 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1140 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1187 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1191 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1226 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1230 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1326 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1519 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1738 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1765 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1818 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1819 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+ 1824 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1824 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1823 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1867 |     [01;36m[KPCL_ADD_POINT4D[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::timer_callback()[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:166:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  166 |     int [01;35m[Klost[m[K, collision;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:166:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcollision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  166 |     int lost, [01;35m[Kcollision[m[K;
+      |               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:167:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  167 |     double [01;35m[Klinear_kp[m[K = 0.8, linear_ki = 0.15, linear_kd = 0, weight_linear = 0.9, weight_angular = 0.95;
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:167:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  167 |     double linear_kp = 0.8, [01;35m[Klinear_ki[m[K = 0.15, linear_kd = 0, weight_linear = 0.9, weight_angular = 0.95;
+      |                             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:167:47:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  167 |     double linear_kp = 0.8, linear_ki = 0.15, [01;35m[Klinear_kd[m[K = 0, weight_linear = 0.9, weight_angular = 0.95;
+      |                                               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::mapOutPub(std::vector<ObjInfo>, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:515:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  515 |         sensor_msgs::[01;35m[KconvertPointCloudToPointCloud2[m[K(out_msg, out_msg2);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:26[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:515:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  515 |         [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(out_msg, out_msg2)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:26[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::pubMarker(std::vector<ObjInfo>)[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:523:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdistance[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  523 |     double [01;35m[Kdistance[m[K;
+      |            [01;35m[K^~~~~~~~[m[K
+CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o: in function `clusteringNode::mapDownsampling()':
+/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:400: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: /home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:401: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o: in function `clusteringNode::filteredEuclideanClustering(std::vector<ObjInfo, std::allocator<ObjInfo> >&)':
+/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:421: undefined reference to `pcl::search::KdTree<pcl::PointXYZ, pcl::KdTreeFLANN<pcl::PointXYZ, flann::L2_Simple<float> > >::KdTree(bool)'
+/usr/bin/ld: /home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:433: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: /home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:434: undefined reference to `pcl::EuclideanClusterExtraction<pcl::PointXYZ>::extract(std::vector<pcl::PointIndices, std::allocator<pcl::PointIndices> >&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o: in function `clusteringNode::euclideanClustering(std::vector<ObjInfo, std::allocator<ObjInfo> >&)':
+/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:483: undefined reference to `pcl::search::KdTree<pcl::PointXYZ, pcl::KdTreeFLANN<pcl::PointXYZ, flann::L2_Simple<float> > >::KdTree(bool)'
+/usr/bin/ld: /home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:495: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: /home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:496: undefined reference to `pcl::EuclideanClusterExtraction<pcl::PointXYZ>::extract(std::vector<pcl::PointIndices, std::allocator<pcl::PointIndices> >&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o: in function `pcl::SACSegmentation<pcl::PointXYZ>::SACSegmentation(bool)':
+/usr/include/pcl-1.12/pcl/segmentation/sac_segmentation.h:100: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::PCLBase()'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o: in function `pcl::Filter<pcl::PointXYZ>::filter(pcl::PointCloud<pcl::PointXYZ>&)':
+/usr/include/pcl-1.12/pcl/filters/filter.h:123: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::initCompute()'
+/usr/bin/ld: /usr/include/pcl-1.12/pcl/filters/filter.h:143: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::deinitCompute()'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o: in function `pcl::EuclideanClusterExtraction<pcl::PointXYZ>::EuclideanClusterExtraction()':
+/usr/include/pcl-1.12/pcl/segmentation/extract_clusters.h:345: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::PCLBase()'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o: in function `pcl::Filter<pcl::PointXYZ>::Filter(bool)':
+/usr/include/pcl-1.12/pcl/filters/filter.h:97: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::PCLBase()'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x48): undefined reference to `pcl::VoxelGrid<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x48): undefined reference to `pcl::ExtractIndices<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x48): undefined reference to `pcl::FilterIndices<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x48): undefined reference to `pcl::SACSegmentation<pcl::PointXYZ>::segment(pcl::PointIndices&, pcl::ModelCoefficients&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x50): undefined reference to `pcl::SACSegmentation<pcl::PointXYZ>::initSACModel(int)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x58): undefined reference to `pcl::SACSegmentation<pcl::PointXYZ>::initSAC(int)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_robot.dir/src/clustering_wagon.cpp.o: in function `pcl::ExtractIndices<pcl::PointXYZ>::applyFilter(std::vector<int, std::allocator<int> >&)':
+/usr/include/pcl-1.12/pcl/filters/extract_indices.h:127: undefined reference to `pcl::ExtractIndices<pcl::PointXYZ>::applyFilterIndices(std::vector<int, std::allocator<int> >&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/clustering_robot.dir/build.make:191: clustering_robot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/clustering_robot.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o: in function `clusteringNode::mapDownsampling()':
+/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:305: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o: in function `clusteringNode::euclideanClustering(std::vector<ObjInfo, std::allocator<ObjInfo> >&)':
+/home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:324: undefined reference to `pcl::search::KdTree<pcl::PointXYZ, pcl::KdTreeFLANN<pcl::PointXYZ, flann::L2_Simple<float> > >::KdTree(bool)'
+/usr/bin/ld: /home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:336: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: /home/robot/robot_ws/src/clustering_cpp/src/clustering_robot.cpp:337: undefined reference to `pcl::EuclideanClusterExtraction<pcl::PointXYZ>::extract(std::vector<pcl::PointIndices, std::allocator<pcl::PointIndices> >&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o: in function `pcl::SACSegmentation<pcl::PointXYZ>::SACSegmentation(bool)':
+/usr/include/pcl-1.12/pcl/segmentation/sac_segmentation.h:100: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::PCLBase()'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o: in function `pcl::Filter<pcl::PointXYZ>::filter(pcl::PointCloud<pcl::PointXYZ>&)':
+/usr/include/pcl-1.12/pcl/filters/filter.h:123: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::initCompute()'
+/usr/bin/ld: /usr/include/pcl-1.12/pcl/filters/filter.h:143: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::deinitCompute()'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o: in function `pcl::EuclideanClusterExtraction<pcl::PointXYZ>::EuclideanClusterExtraction()':
+/usr/include/pcl-1.12/pcl/segmentation/extract_clusters.h:345: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::PCLBase()'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o: in function `pcl::Filter<pcl::PointXYZ>::Filter(bool)':
+/usr/include/pcl-1.12/pcl/filters/filter.h:97: undefined reference to `pcl::PCLBase<pcl::PointXYZ>::PCLBase()'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE[_ZTVN3pcl26EuclideanClusterExtractionINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x48): undefined reference to `pcl::VoxelGrid<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE[_ZTVN3pcl14ExtractIndicesINS_8PointXYZEEE]+0x48): undefined reference to `pcl::ExtractIndices<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x48): undefined reference to `pcl::FilterIndices<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl6FilterINS_8PointXYZEEE[_ZTVN3pcl6FilterINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x48): undefined reference to `pcl::SACSegmentation<pcl::PointXYZ>::segment(pcl::PointIndices&, pcl::ModelCoefficients&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x50): undefined reference to `pcl::SACSegmentation<pcl::PointXYZ>::initSACModel(int)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl15SACSegmentationINS_8PointXYZEEE[_ZTVN3pcl15SACSegmentationINS_8PointXYZEEE]+0x58): undefined reference to `pcl::SACSegmentation<pcl::PointXYZ>::initSAC(int)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x20): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setInputCloud(std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x28): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > > const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x30): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<std::vector<int, std::allocator<int> > const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x38): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(std::shared_ptr<pcl::PointIndices const> const&)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o:(.data.rel.ro._ZTVN3pcl7PCLBaseINS_8PointXYZEEE[_ZTVN3pcl7PCLBaseINS_8PointXYZEEE]+0x40): undefined reference to `pcl::PCLBase<pcl::PointXYZ>::setIndices(unsigned long, unsigned long, unsigned long, unsigned long)'
+/usr/bin/ld: CMakeFiles/clustering_wagon.dir/src/clustering_robot.cpp.o: in function `pcl::ExtractIndices<pcl::PointXYZ>::applyFilter(std::vector<int, std::allocator<int> >&)':
+/usr/include/pcl-1.12/pcl/filters/extract_indices.h:127: undefined reference to `pcl::ExtractIndices<pcl::PointXYZ>::applyFilterIndices(std::vector<int, std::allocator<int> >&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/clustering_wagon.dir/build.make:191: clustering_wagon] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/clustering_wagon.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

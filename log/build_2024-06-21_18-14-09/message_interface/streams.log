@@ -1,0 +1,33 @@
+[0.781s] Invoking command in '/home/robot/robot_ws/build/message_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/message_interface -- -j4 -l4
+[0.916s] [ 10%] Built target message_interface__rosidl_generator_c
+[0.964s] [ 12%] Built target message_interface__cpp
+[0.971s] [ 23%] Built target message_interface__rosidl_typesupport_fastrtps_c
+[0.980s] [ 23%] Built target ament_cmake_python_symlink_message_interface
+[0.986s] [ 33%] Built target message_interface__rosidl_typesupport_c
+[1.054s] [ 43%] Built target message_interface__rosidl_typesupport_introspection_cpp
+[1.057s] [ 53%] Built target message_interface__rosidl_typesupport_introspection_c
+[1.074s] [ 64%] Built target message_interface__rosidl_typesupport_cpp
+[1.074s] [ 74%] Built target message_interface__rosidl_typesupport_fastrtps_cpp
+[1.119s] [ 74%] Built target message_interface
+[1.179s] Traceback (most recent call last):
+[1.179s]   File "/home/robot/robot_ws/build/message_interface/ament_cmake_python/message_interface/setup.py", line 1, in <module>
+[1.180s]     from setuptools import find_packages
+[1.180s]   File "/home/robot/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[1.180s] gmake[1]: *** [CMakeFiles/Makefile2:591: message_interface__py/CMakeFiles/message_interface__py.dir/all] Interrupt
+[1.180s]     import setuptools.version
+[1.180s]   File "/home/robot/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[1.180s]     import pkg_resources
+[1.180s]   File "/home/robot/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 38, in <module>
+[1.180s]     import inspect
+[1.180s]   File "/usr/lib/python3.10/inspect.py", line 43, in <module>
+[1.181s]     import linecache
+[1.181s]   File "/usr/lib/python3.10/linecache.py", line 11, in <module>
+[1.182s]     import tokenize
+[1.182s]   File "/usr/lib/python3.10/tokenize.py", line 141, in <module>
+[1.182s]     for _prefix in _all_string_prefixes():
+[1.182s]   File "/usr/lib/python3.10/tokenize.py", line 92, in _all_string_prefixes
+[1.182s]     for t in _itertools.permutations(prefix):
+[1.182s] KeyboardInterrupt
+[1.194s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_message_interface_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_message_interface_egg] Interrupt
+[1.194s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_message_interface_egg.dir/all] Interrupt
+[1.195s] gmake: *** [Makefile:146: all] Interrupt

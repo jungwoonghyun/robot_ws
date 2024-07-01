@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target ld08_driver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_cloud[m[K’ was not declared in this scope; did you mean ‘[01m[Klidar_pub[m[K’?
+   32 |   [01;31m[Klidar_cloud[m[K->points[i] * pkg;
+      |   [01;31m[K^~~~~~~~~~~[m[K
+      |   [32m[Klidar_pub[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   32 |   lidar_cloud->points[[01;31m[Ki[m[K] * pkg;
+      |                       [01;31m[K^[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kpkg[m[K’ was not declared in this scope
+   32 |   lidar_cloud->points[i] * [01;31m[Kpkg[m[K;
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:[m[K In lambda function:
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpkg[m[K’ is not captured
+   52 |         if ([01;31m[Kpkg[m[K->Parse((const uint8_t *)(byte), len)) {
+      |             [01;31m[K^~~[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:51:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   51 |       [&pkg[01;36m[K][m[K(const char * byte, size_t len) {
+      |            [01;36m[K^[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:28:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>pkg[m[K’ declared here
+   32 |   lidar_cloud->points[i] * [01;36m[Kpkg[m[K;
+      |                            [01;36m[K^~~[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:53:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kpkg[m[K’ is not captured
+   53 |           [01;31m[Kpkg[m[K->AssemblePacket();
+      |           [01;31m[K^~~[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:51:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   51 |       [&pkg[01;36m[K][m[K(const char * byte, size_t len) {
+      |            [01;36m[K^[m[K
+[01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:28:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>pkg[m[K’ declared here
+   32 |   lidar_cloud->points[i] * [01;36m[Kpkg[m[K;
+      |                            [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/ld08_driver.dir/build.make:104: CMakeFiles/ld08_driver.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ld08_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

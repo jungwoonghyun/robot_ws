@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: /home/robot/robot_ws/src/gl_ros2_driver_udp
+# Build directory: /home/robot/robot_ws/build/gl_ros2_driver_udp
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.

@@ -1,0 +1,15 @@
+[0.345s] Invoking command in '/home/robot/robot_ws/build/clustering_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/clustering_cpp -- -j4 -l4
+[0.457s] [35m[1mConsolidate compiler generated dependencies of target clustering[0m
+[0.510s] [ 50%] [32mBuilding CXX object CMakeFiles/clustering.dir/src/clustering.cpp.o[0m
+[3.614s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:23[m[K:
+[3.614s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.615s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[3.615s]       |      [01;35m[K^~~~~~~[m[K
+[3.639s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:206:31:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[3.639s]   206 |     out_msg.header.frame_id = [01;35m[K'base_scan'[m[K;
+[3.639s]       |                               [01;35m[K^~~~~~~~~~~[m[K
+[5.781s] gmake[2]: *** wait: No child processes.  Stop.
+[5.784s] gmake[2]: *** Waiting for unfinished jobs....
+[5.784s] gmake[2]: *** wait: No child processes.  Stop.
+[5.784s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/clustering.dir/all] Error 2
+[5.784s] gmake: *** [Makefile:146: all] Interrupt

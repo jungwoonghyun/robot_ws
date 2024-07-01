@@ -1,0 +1,73 @@
+[0.025s] Invoking command in '/home/robot/robot_ws/build/clustering_cpp': CMAKE_PREFIX_PATH=/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/robot_ws/install/message_interface/lib:/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robot/robot_ws/build/clustering_cpp -- -j4 -l4
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target clustering_wagon[0m
+[0.145s] [ 50%] Built target clustering_robot
+[0.177s] [ 75%] [32mBuilding CXX object CMakeFiles/clustering_wagon.dir/src/clustering_wagon.cpp.o[0m
+[1.967s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:26[m[K:
+[1.967s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.967s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[1.968s]       |      [01;35m[K^~~~~~~[m[K
+[6.786s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::timer_callback()[m[K’:
+[6.786s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:251:39:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.786s]   251 |                 [01;35m[Ktarget_detect_counter == 1[m[K; // target detect counter
+[6.786s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.786s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:284:39:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[6.787s]   284 |                 [01;35m[Ktarget_detect_counter == 1[m[K; // target detect counter
+[6.787s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.789s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:172:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.789s]   172 |     int [01;35m[Klost[m[K, collision = 1;
+[6.789s]       |         [01;35m[K^~~~[m[K
+[6.789s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:173:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.789s]   173 |     double [01;35m[Klinear_kp[m[K = 0.8, linear_ki = 0.15, linear_kd = 0, weight_linear = 0.9, weight_angular = 0.95;
+[6.789s]       |            [01;35m[K^~~~~~~~~[m[K
+[6.789s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:173:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.789s]   173 |     double linear_kp = 0.8, [01;35m[Klinear_ki[m[K = 0.15, linear_kd = 0, weight_linear = 0.9, weight_angular = 0.95;
+[6.789s]       |                             [01;35m[K^~~~~~~~~[m[K
+[6.789s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:173:47:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.789s]   173 |     double linear_kp = 0.8, linear_ki = 0.15, [01;35m[Klinear_kd[m[K = 0, weight_linear = 0.9, weight_angular = 0.95;
+[6.789s]       |                                               [01;35m[K^~~~~~~~~[m[K
+[6.790s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:174:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_lost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.790s]   174 |     int [01;35m[Ktarget_lost[m[K;
+[6.790s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[6.818s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::mapOutPub(std::vector<ObjInfo>, int)[m[K’:
+[6.818s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:678:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.818s]   678 |         sensor_msgs::[01;35m[KconvertPointCloudToPointCloud2[m[K(out_msg, out_msg2);
+[6.818s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.818s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:26[m[K:
+[6.819s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.819s]    81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+[6.819s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.819s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:678:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool sensor_msgs::convertPointCloudToPointCloud2(const PointCloud&, sensor_msgs::msg::PointCloud2&)[m[K’ is deprecated: PointCloud is deprecated as of Foxy in favor of sensor_msgs/PointCloud2. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.819s]   678 |         [01;35m[Ksensor_msgs::convertPointCloudToPointCloud2(out_msg, out_msg2)[m[K;
+[6.819s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.819s] In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:26[m[K:
+[6.819s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:81:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.819s]    81 | static inline bool [01;36m[KconvertPointCloudToPointCloud2[m[K(
+[6.819s]       |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.821s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:[m[K In member function ‘[01m[Kvoid clusteringNode::pubMarker(std::vector<ObjInfo>)[m[K’:
+[6.821s] [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering_wagon.cpp:686:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdistance[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[6.821s]   686 |     double [01;35m[Kdistance[m[K;
+[6.821s]       |            [01;35m[K^~~~~~~~[m[K
+[23.449s] [100%] [32m[1mLinking CXX executable clustering_wagon[0m
+[25.658s] [100%] Built target clustering_wagon
+[25.669s] Invoked command in '/home/robot/robot_ws/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/robot_ws/install/message_interface/lib:/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robot/robot_ws/build/clustering_cpp -- -j4 -l4
+[25.712s] Invoking command in '/home/robot/robot_ws/build/clustering_cpp': CMAKE_PREFIX_PATH=/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/robot_ws/install/message_interface/lib:/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robot/robot_ws/build/clustering_cpp
+[25.722s] -- Install configuration: "Debug"
+[25.723s] -- Execute custom install script
+[25.724s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/lib/clustering_cpp/clustering_wagon
+[25.724s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/lib/clustering_cpp/clustering_robot
+[25.724s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/ament_index/resource_index/package_run_dependencies/clustering_cpp
+[25.725s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/ament_index/resource_index/parent_prefix_path/clustering_cpp
+[25.725s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.sh
+[25.725s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/environment/ament_prefix_path.dsv
+[25.726s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/environment/path.sh
+[25.726s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/environment/path.dsv
+[25.726s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/local_setup.bash
+[25.726s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/local_setup.sh
+[25.727s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/local_setup.zsh
+[25.727s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/local_setup.dsv
+[25.727s] -- Symlinking: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/package.dsv
+[25.740s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/ament_index/resource_index/packages/clustering_cpp
+[25.740s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig.cmake
+[25.740s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/cmake/clustering_cppConfig-version.cmake
+[25.740s] -- Up-to-date symlink: /home/robot/robot_ws/install/clustering_cpp/share/clustering_cpp/package.xml
+[25.743s] Invoked command in '/home/robot/robot_ws/build/clustering_cpp' returned '0': CMAKE_PREFIX_PATH=/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/robot_ws/install/message_interface/lib:/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robot/robot_ws/build/clustering_cpp

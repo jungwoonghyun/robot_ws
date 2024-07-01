@@ -1,0 +1,37 @@
+[0.704s] Invoking command in '/home/robot/robot_ws/build/message_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/message_interface -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/install/message_interface
+[0.722s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.975s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.984s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.999s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.465s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.166s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.207s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.208s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.208s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.252s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.267s] -- Added test 'lint_cmake' to check CMake code style
+[2.268s] -- Added test 'xmllint' to check XML markup files
+[2.272s] -- Configuring done
+[2.314s] -- Generating done
+[2.317s] -- Build files have been written to: /home/robot/robot_ws/build/message_interface
+[2.452s] Invoked command in '/home/robot/robot_ws/build/message_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/message_interface -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/install/message_interface
+[2.453s] Invoking command in '/home/robot/robot_ws/build/message_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/message_interface -- -j4 -l4
+[2.500s] [35m[1mConsolidate compiler generated dependencies of target message_interface__rosidl_generator_c[0m
+[2.515s] failed to create symbolic link '/home/robot/robot_ws/build/message_interface/ament_cmake_python/message_interface/message_interface' because existing path cannot be removed: Is a directory
+[2.515s] [  6%] Built target message_interface__cpp
+[2.516s] [ 12%] Built target message_interface__rosidl_generator_c
+[2.517s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_message_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_message_interface] Error 1
+[2.517s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_message_interface.dir/all] Error 2
+[2.517s] gmake[1]: *** Waiting for unfinished jobs....
+[2.528s] [35m[1mConsolidate compiler generated dependencies of target message_interface__rosidl_typesupport_cpp[0m
+[2.531s] [35m[1mConsolidate compiler generated dependencies of target message_interface__rosidl_typesupport_introspection_c[0m
+[2.533s] [35m[1mConsolidate compiler generated dependencies of target message_interface__rosidl_typesupport_fastrtps_c[0m
+[2.544s] [ 22%] Built target message_interface__rosidl_typesupport_cpp
+[2.545s] [ 32%] Built target message_interface__rosidl_typesupport_introspection_c
+[2.551s] [ 41%] Built target message_interface__rosidl_typesupport_fastrtps_c
+[2.552s] gmake: *** [Makefile:146: all] Error 2
+[2.739s] Invoked command in '/home/robot/robot_ws/build/message_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/message_interface -- -j4 -l4

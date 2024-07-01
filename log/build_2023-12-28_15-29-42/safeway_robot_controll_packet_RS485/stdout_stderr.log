@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target packet_RS485_subscriber[0m
+[ 33%] Built target packet_RS485_publisher
+[ 44%] [32mBuilding C object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_comm.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/packet_RS485_subscriber.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_crc16.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_recv.c.o[0m
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_comm.c: 그런 파일이나 디렉터리가 없습니다
+compilation terminated.
+gmake[2]: *** [CMakeFiles/packet_RS485_subscriber.dir/build.make:90: CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_comm.c.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_crc16.c: 그런 파일이나 디렉터리가 없습니다
+compilation terminated.
+gmake[2]: *** [CMakeFiles/packet_RS485_subscriber.dir/build.make:104: CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_crc16.c.o] 오류 1
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c: 그런 파일이나 디렉터리가 없습니다
+compilation terminated.
+gmake[2]: *** [CMakeFiles/packet_RS485_subscriber.dir/build.make:118: CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_recv.c.o] 오류 1
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:36:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   36 | static char *pszDevName = [01;35m[K"/dev/ttyUSB0"[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:120:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  120 |   double [01;35m[Kspd[m[K = 0;
+      |          [01;35m[K^~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:121:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdir[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  121 |   int [01;35m[Kdir[m[K = 0;
+      |       [01;35m[K^~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:123:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnBytesCached[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  123 |   int [01;35m[KnBytesCached[m[K = 0;
+      |       [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:124:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnBytesRead[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  124 |   int [01;35m[KnBytesRead[m[K;
+      |       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:126:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KoperationType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  126 |   OPERATION_TYPE [01;35m[KoperationType[m[K = OPERATION_STOP;
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:[m[K At global scope:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:56:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_nSendIndex[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   56 | static int [01;35m[Kms_nSendIndex[m[K = 0;
+      |            [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:54:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_szCmdWBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   54 | static char [01;35m[Kms_szCmdWBuffer[m[K[MOTION_CMD_BUFFER_SIZE_MAIN];
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:51:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_szCmdRBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 | static char [01;35m[Kms_szCmdRBuffer[m[K[MOTION_CMD_BUFFER_SIZE_MAIN];
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/packet_RS485_subscriber.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

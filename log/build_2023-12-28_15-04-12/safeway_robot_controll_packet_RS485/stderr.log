@@ -1,0 +1,33 @@
+WARNING: Package name "safeway_robot_controll_packet_RS485" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kget_motion_stage_name[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:68:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KMOTION_STAGE[m[K’ {aka ‘[01m[Kenum _enum_MOTION_STAGE[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   68 |     if (motionStage >= 0 && motionStage [01;35m[K<[m[K sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0]))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kparse_motion_stage[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:85:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   85 |     for (register int iStage = 0; iStage [01;35m[K<[m[K sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0]); iStage++)
+      |                                          [01;35m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kparse_stop_reason[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:104:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  104 |     for (register int iReason = 0; iReason [01;35m[K<[m[K sizeof(s_rgpszMotionStopReasonNames) / sizeof(s_rgpszMotionStopReasonNames[0]); iReason++)
+      |                                            [01;35m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kparse_reply_command[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:174:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  174 |     for (iArg = 0; nArgRemainLen > 0 && iArg [01;35m[K<[m[K sizeof(rgpArgs)/sizeof(rgpArgs[0]); iArg++)
+      |                                              [01;35m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:262:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnAxesCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  262 |     const int [01;35m[KnAxesCount[m[K = (int)strtol(rgpArgs[2], &pEndStr, 0);
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:[m[K In function ‘[01m[Kparse_recv_packet[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:572:34:[m[K [01;35m[Kwarning: [m[Kpointer targets in passing argument 1 of ‘[01m[Kparse_reply_command[m[K’ differ in signedness [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-sign-Wpointer-sign]8;;[m[K]
+  572 |     return parse_reply_command([01;35m[Kp + 6[m[K, nLen);
+      |                                [01;35m[K~~^~~[m[K
+      |                                  [01;35m[K|[m[K
+      |                                  [01;35m[Kconst unsigned char *[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.c:128:37:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kconst char *[m[K’ but argument is of type ‘[01m[Kconst unsigned char *[m[K’
+  128 | int parse_reply_command([01;36m[Kconst char* pCmd[m[K, int nPacketLen)
+      |                         [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_send.c:[m[K In function ‘[01m[Kformat_motion_commandv[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_send.c:48:18:[m[K [01;35m[Kwarning: [m[Kpointer targets in initialization of ‘[01m[Kchar *[m[K’ from ‘[01m[Kunsigned char *[m[K’ differ in signedness [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-sign-Wpointer-sign]8;;[m[K]
+   48 |     char* pCmd = [01;35m[Kp[m[K + 6;  // header is 6 bytes
+      |                  [01;35m[K^[m[K

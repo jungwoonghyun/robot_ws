@@ -1,0 +1,14 @@
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:36:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   36 | static char *pszDevName = [01;35m[K"/dev/ttyUSB0"[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:[m[K In member function ‘[01m[Kvoid PacketRS485Subscriber::subscribe_topic_message(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:65:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kspd_right[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   65 |     double [01;35m[Kspd_right[m[K, spd_left;
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:65:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kspd_left[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   65 |     double spd_right, [01;35m[Kspd_left[m[K;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:86:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KhComm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   86 |   COMM_HANDLE [01;35m[KhComm[m[K = open_comm_dev(pszDevName, nBaud);
+      |               [01;35m[K^~~~~[m[K

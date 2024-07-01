@@ -1,0 +1,36 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[33mCMake Warning (dev) at CMakeLists.txt:26 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:20[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:54:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   54 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kcmd_vel_pub[m[K
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:[m[K In constructor ‘[01m[KclusteringNode::clusteringNode()[m[K’:
+[01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:38:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KclusteringNode::create_generic_publisher<geometry_msgs::msg::Twist>(const char [8], rclcpp::QoS&)[m[K’
+   38 |  = [01;31m[Kthis->create_generic_publisher<geometry_msgs::msg::Twist>("cmd_vel", qos_profile)[m[K;
+      |    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/robot_ws/src/clustering_cpp/src/clustering.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:158:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<rclcpp::GenericPublisher> rclcpp::Node::create_generic_publisher(const string&, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with AllocatorT = geometry_msgs::msg::Twist_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+  158 | [01;36m[KNode[m[K::create_generic_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:158:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+gmake[2]: *** [CMakeFiles/clustering.dir/build.make:76: CMakeFiles/clustering.dir/src/clustering.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/clustering.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

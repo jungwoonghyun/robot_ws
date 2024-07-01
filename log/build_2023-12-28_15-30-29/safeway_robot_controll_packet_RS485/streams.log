@@ -1,0 +1,130 @@
+[0.075s] Invoking command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485 -- -j4 -l4
+[0.116s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.310s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.352s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.356s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.471s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.581s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.758s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.803s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.853s] WARNING: Package name "safeway_robot_controll_packet_RS485" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.870s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.871s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.872s] -- Configured cppcheck include dirs: /home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/include
+[0.872s] -- Configured cppcheck exclude dirs and/or files: 
+[0.873s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.873s] -- Configured cpplint exclude dirs and/or files: 
+[0.875s] -- Added test 'lint_cmake' to check CMake code style
+[0.876s] -- Added test 'uncrustify' to check C / C++ code style
+[0.876s] -- Configured uncrustify additional arguments: 
+[0.876s] -- Added test 'xmllint' to check XML markup files
+[0.877s] -- Configuring done
+[0.896s] -- Generating done
+[0.899s] -- Build files have been written to: /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485
+[0.928s] [35m[1mConsolidate compiler generated dependencies of target packet_RS485_publisher[0m
+[0.929s] [35m[1mConsolidate compiler generated dependencies of target packet_RS485_subscriber[0m
+[0.958s] [ 11%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/packet_RS485_subscriber.cpp.o[0m
+[0.958s] [ 44%] Built target packet_RS485_publisher
+[0.961s] [ 55%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_crc16.cpp.o[0m
+[0.968s] [ 66%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_recv.cpp.o[0m
+[0.996s] [ 77%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_comm.cpp.o[0m
+[1.023s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:[m[K In function ‘[01m[Kconst char* get_motion_stage_name(MOTION_STAGE)[m[K’:
+[1.024s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:68:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KMOTION_STAGE[m[K’ {aka ‘[01m[K_enum_MOTION_STAGE[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.024s]    68 |     if (motionStage >= 0 && [01;35m[KmotionStage < sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0])[m[K)
+[1.024s]       |                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.025s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:[m[K In function ‘[01m[KMOTION_STAGE parse_motion_stage(const char*, int)[m[K’:
+[1.025s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:85:23:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+[1.025s]    85 |     for (register int [01;35m[KiStage[m[K = 0; iStage < sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0]); iStage++)
+[1.025s]       |                       [01;35m[K^~~~~~[m[K
+[1.025s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:85:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.025s]    85 |     for (register int iStage = 0; [01;35m[KiStage < sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0])[m[K; iStage++)
+[1.025s]       |                                   [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.025s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:[m[K In function ‘[01m[KSTOP_REASON parse_stop_reason(const char*, int)[m[K’:
+[1.025s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:104:23:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+[1.026s]   104 |     for (register int [01;35m[KiReason[m[K = 0; iReason < sizeof(s_rgpszMotionStopReasonNames) / sizeof(s_rgpszMotionStopReasonNames[0]); iReason++)
+[1.026s]       |                       [01;35m[K^~~~~~~[m[K
+[1.026s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:104:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.026s]   104 |     for (register int iReason = 0; [01;35m[KiReason < sizeof(s_rgpszMotionStopReasonNames) / sizeof(s_rgpszMotionStopReasonNames[0])[m[K; iReason++)
+[1.026s]       |                                    [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.026s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:[m[K In function ‘[01m[Kint parse_reply_command(const char*, int)[m[K’:
+[1.026s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:146:44:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst void*[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.026s]   146 |     const char* pMnemonicDelimiter = [01;31m[Kmemchr(pCmd, CMD_MNEMONIC_DELIMITER, nCmdLen)[m[K;
+[1.026s]       |                                      [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.026s]       |                                            [01;31m[K|[m[K
+[1.026s]       |                                            [01;31m[Kconst void*[m[K
+[1.026s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:169:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+[1.026s]   169 |     register int [01;35m[KiArg[m[K;
+[1.027s]       |                  [01;35m[K^~~~[m[K
+[1.027s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:174:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.027s]   174 |     for (iArg = 0; nArgRemainLen > 0 && [01;35m[KiArg < sizeof(rgpArgs)/sizeof(rgpArgs[0])[m[K; iArg++)
+[1.027s]       |                                         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.027s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:177:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst void*[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.027s]   177 |         pszArgDelimiter = [01;31m[Kmemchr(pszNextArg, CMD_ARG_DELIMITER, nArgRemainLen)[m[K;
+[1.027s]       |                           [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.027s]       |                                 [01;31m[K|[m[K
+[1.027s]       |                                 [01;31m[Kconst void*[m[K
+[1.027s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:215:20:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[KREPLY_TYPE_FLAGS[m[K’ {aka ‘[01m[K_enum_REPLY_TYPE_FLAGS[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.027s]   215 |         [01;31m[KreplyFlags |= REPLY_BASIC[m[K;
+[1.028s]       |         [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.028s]       |                    [01;31m[K|[m[K
+[1.028s]       |                    [01;31m[Kint[m[K
+[1.028s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:220:20:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[KREPLY_TYPE_FLAGS[m[K’ {aka ‘[01m[K_enum_REPLY_TYPE_FLAGS[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.028s]   220 |         [01;31m[KreplyFlags |= REPLY_STOP_REASON[m[K;
+[1.028s]       |         [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.029s]       |                    [01;31m[K|[m[K
+[1.029s]       |                    [01;31m[Kint[m[K
+[1.029s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:225:20:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[KREPLY_TYPE_FLAGS[m[K’ {aka ‘[01m[K_enum_REPLY_TYPE_FLAGS[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.029s]   225 |         [01;31m[KreplyFlags |= REPLY_TORQUE[m[K;
+[1.029s]       |         [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[1.030s]       |                    [01;31m[K|[m[K
+[1.030s]       |                    [01;31m[Kint[m[K
+[1.030s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:262:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnAxesCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.030s]   262 |     const int [01;35m[KnAxesCount[m[K = (int)strtol(rgpArgs[2], &pEndStr, 0);
+[1.030s]       |               [01;35m[K^~~~~~~~~~[m[K
+[1.030s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:[m[K In function ‘[01m[Kint parse_recv_packet(const void*, int)[m[K’:
+[1.030s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:572:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst unsigned char*[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.030s]   572 |     return parse_reply_command([01;31m[Kp + 6[m[K, nLen);
+[1.030s]       |                                [01;31m[K~~^~~[m[K
+[1.030s]       |                                  [01;31m[K|[m[K
+[1.030s]       |                                  [01;31m[Kconst unsigned char*[m[K
+[1.031s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/mcmd_test_recv.cpp:128:37:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint parse_reply_command(const char*, int)[m[K’
+[1.031s]   128 | int parse_reply_command([01;36m[Kconst char* pCmd[m[K, int nPacketLen)
+[1.031s]       |                         [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[1.031s] gmake[2]: *** [CMakeFiles/packet_RS485_subscriber.dir/build.make:118: CMakeFiles/packet_RS485_subscriber.dir/src/mcmd_test_recv.cpp.o] 오류 1
+[1.031s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[3.497s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:36:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.497s]    36 | static char *pszDevName = [01;35m[K"/dev/ttyUSB0"[m[K;
+[3.497s]       |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.581s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.581s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:120:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.581s]   120 |   double [01;35m[Kspd[m[K = 0;
+[3.581s]       |          [01;35m[K^~~[m[K
+[3.581s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:121:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdir[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.581s]   121 |   int [01;35m[Kdir[m[K = 0;
+[3.581s]       |       [01;35m[K^~~[m[K
+[3.581s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:123:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnBytesCached[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.581s]   123 |   int [01;35m[KnBytesCached[m[K = 0;
+[3.582s]       |       [01;35m[K^~~~~~~~~~~~[m[K
+[3.582s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:124:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnBytesRead[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.582s]   124 |   int [01;35m[KnBytesRead[m[K;
+[3.582s]       |       [01;35m[K^~~~~~~~~~[m[K
+[3.582s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:126:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KoperationType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.582s]   126 |   OPERATION_TYPE [01;35m[KoperationType[m[K = OPERATION_STOP;
+[3.582s]       |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[6.243s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:[m[K At global scope:
+[6.243s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:56:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_nSendIndex[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.243s]    56 | static int [01;35m[Kms_nSendIndex[m[K = 0;
+[6.243s]       |            [01;35m[K^~~~~~~~~~~~~[m[K
+[6.243s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:54:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_szCmdWBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.243s]    54 | static char [01;35m[Kms_szCmdWBuffer[m[K[MOTION_CMD_BUFFER_SIZE_MAIN];
+[6.243s]       |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.243s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:51:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_szCmdRBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.243s]    51 | static char [01;35m[Kms_szCmdRBuffer[m[K[MOTION_CMD_BUFFER_SIZE_MAIN];
+[6.244s]       |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[11.004s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/packet_RS485_subscriber.dir/all] 오류 2
+[11.006s] gmake: *** [Makefile:146: all] 오류 2
+[11.007s] Invoked command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_RS485 -- -j4 -l4

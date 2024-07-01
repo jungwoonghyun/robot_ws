@@ -1,0 +1,36 @@
+[0.222s] Invoking command in '/home/robot/robot_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/ld08_driver -- -j4 -l4
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target ld08_driver[0m
+[0.342s] [ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[5.094s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.094s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Publisher<sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Publisher<sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+[5.094s]    32 |   lidar_pub->[01;31m[Kpoints[m[K[i] * pkg;
+[5.094s]       |              [01;31m[K^~~~~~[m[K
+[5.106s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[5.106s]    32 |   lidar_pub->points[[01;31m[Ki[m[K] * pkg;
+[5.106s]       |                     [01;31m[K^[m[K
+[5.114s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpkg[m[K’ was not declared in this scope
+[5.115s]    32 |   lidar_pub->points[i] * [01;31m[Kpkg[m[K;
+[5.115s]       |                          [01;31m[K^~~[m[K
+[5.133s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:[m[K In lambda function:
+[5.133s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpkg[m[K’ is not captured
+[5.133s]    52 |         if ([01;31m[Kpkg[m[K->Parse((const uint8_t *)(byte), len)) {
+[5.133s]       |             [01;31m[K^~~[m[K
+[5.133s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:51:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[5.134s]    51 |       [&pkg[01;36m[K][m[K(const char * byte, size_t len) {
+[5.134s]       |            [01;36m[K^[m[K
+[5.134s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:26:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>pkg[m[K’ declared here
+[5.134s]    32 |   lidar_pub->points[i] * [01;36m[Kpkg[m[K;
+[5.134s]       |                          [01;36m[K^~~[m[K
+[5.134s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:53:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kpkg[m[K’ is not captured
+[5.134s]    53 |           [01;31m[Kpkg[m[K->AssemblePacket();
+[5.134s]       |           [01;31m[K^~~[m[K
+[5.134s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:51:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[5.134s]    51 |       [&pkg[01;36m[K][m[K(const char * byte, size_t len) {
+[5.134s]       |            [01;36m[K^[m[K
+[5.135s] [01m[K/home/robot/robot_ws/src/ld08_driver/src/main.cpp:32:26:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>pkg[m[K’ declared here
+[5.135s]    32 |   lidar_pub->points[i] * [01;36m[Kpkg[m[K;
+[5.135s]       |                          [01;36m[K^~~[m[K
+[6.917s] gmake[2]: *** [CMakeFiles/ld08_driver.dir/build.make:104: CMakeFiles/ld08_driver.dir/src/main.cpp.o] Error 1
+[6.918s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ld08_driver.dir/all] Error 2
+[6.918s] gmake: *** [Makefile:146: all] Error 2
+[6.921s] Invoked command in '/home/robot/robot_ws/build/ld08_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/ld08_driver -- -j4 -l4

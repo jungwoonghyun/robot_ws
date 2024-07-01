@@ -1,0 +1,89 @@
+[0.198s] Invoking command in '/home/robot/robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/install/ldlidar_stl_ros2
+[0.410s] -- The C compiler identification is GNU 11.4.0
+[0.502s] -- The CXX compiler identification is GNU 11.4.0
+[0.512s] -- Detecting C compiler ABI info
+[0.613s] -- Detecting C compiler ABI info - done
+[0.613s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.613s] -- Detecting C compile features
+[0.613s] -- Detecting C compile features - done
+[0.617s] -- Detecting CXX compiler ABI info
+[0.756s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.763s] -- Detecting CXX compile features
+[0.765s] -- Detecting CXX compile features - done
+[0.776s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.069s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.287s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.495s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.517s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.533s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.795s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.817s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.184s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.264s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.364s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.389s] -- Looking for pthread.h
+[2.496s] -- Looking for pthread.h - found
+[2.496s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.626s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.626s] -- Found Threads: TRUE  
+[2.987s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.341s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.857s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.866s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.874s] -- Configured cppcheck include dirs: /home/robot/robot_ws/src/ldlidar_stl_ros2/include;/home/robot/robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/core;/home/robot/robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/dataprocess;/home/robot/robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/filter;/home/robot/robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/logger;/home/robot/robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/networkcom;/home/robot/robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/serialcom
+[3.874s] -- Configured cppcheck exclude dirs and/or files: 
+[3.877s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.878s] -- Configured cpplint exclude dirs and/or files: 
+[3.881s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.885s] -- Added test 'lint_cmake' to check CMake code style
+[3.889s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.896s] -- Added test 'uncrustify' to check C / C++ code style
+[3.897s] -- Configured uncrustify additional arguments: 
+[3.930s] -- Added test 'xmllint' to check XML markup files
+[3.931s] -- Configuring done
+[3.948s] -- Generating done
+[3.956s] -- Build files have been written to: /home/robot/robot_ws/build/ldlidar_stl_ros2
+[4.583s] Invoked command in '/home/robot/robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/install/ldlidar_stl_ros2
+[4.597s] Invoking command in '/home/robot/robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/ldlidar_stl_ros2 -- -j4 -l4
+[4.706s] [ 12%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/src/demo.cpp.o[0m
+[4.726s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o[0m
+[4.731s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[4.732s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[7.061s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[7.523s] [ 75%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o[0m
+[7.821s] [ 87%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o[0m
+[12.860s] [100%] [32m[1mLinking CXX executable ldlidar_stl_ros2_node[0m
+[13.147s] [100%] Built target ldlidar_stl_ros2_node
+[13.160s] Invoked command in '/home/robot/robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/ldlidar_stl_ros2 -- -j4 -l4
+[13.214s] Invoking command in '/home/robot/robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/ldlidar_stl_ros2
+[13.225s] -- Install configuration: ""
+[13.225s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node
+[13.226s] -- Set runtime path of "/home/robot/robot_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node" to ""
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2
+[13.226s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz
+[13.226s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2
+[13.227s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+[13.227s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh
+[13.227s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv
+[13.227s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh
+[13.227s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv
+[13.227s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash
+[13.227s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh
+[13.227s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh
+[13.227s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv
+[13.228s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv
+[13.228s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2
+[13.228s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake
+[13.228s] -- Installing: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake
+[13.228s] -- Up-to-date: /home/robot/robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml
+[13.238s] Invoked command in '/home/robot/robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/ldlidar_stl_ros2

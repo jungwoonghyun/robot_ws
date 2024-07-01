@@ -1,0 +1,29 @@
+[  6%] [32mBuilding CXX object CMakeFiles/packet_tf2_tracing.dir/src/packet_tf2_tracing.cpp.o[0m
+[ 25%] Built target packet_RS485_publisher
+[ 31%] [32mBuilding CXX object CMakeFiles/packet_uwb_dwm1001_publisher.dir/src/packet_uwb_dwm1001_publisher.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/packet_RS485_subscriber.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ESP32_controller.dir/src/packet_esp32_controller.cpp.o[0m
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_esp32_controller.cpp:13:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   13 | static char * esp32Uart = [01;35m[K"/dev/ttyUSB0"[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_uwb_dwm1001_publisher.cpp:32:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   32 | static char *uwbDev[3] = {[01;35m[K"/dev/ttyACM0"[m[K, "/dev/ttyACM1", "/dev/ttyACM2"};
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_uwb_dwm1001_publisher.cpp:32:43:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   32 | static char *uwbDev[3] = {"/dev/ttyACM0", [01;35m[K"/dev/ttyACM1"[m[K, "/dev/ttyACM2"};
+      |                                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_uwb_dwm1001_publisher.cpp:32:59:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   32 | static char *uwbDev[3] = {"/dev/ttyACM0", "/dev/ttyACM1", [01;35m[K"/dev/ttyACM2"[m[K};
+      |                                                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:39:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   39 | static char *pszDevName = [01;35m[K"/dev/ttyUSB0"[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_uwb_dwm1001_publisher.cpp:50:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_nSendIndex[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 | static int [01;35m[Kms_nSendIndex[m[K = 0;
+      |            [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_uwb_dwm1001_publisher.cpp:48:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_szCmdWBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   48 | static char [01;35m[Kms_szCmdWBuffer[m[K[MOTION_CMD_BUFFER_SIZE_MAIN];
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_uwb_dwm1001_publisher.cpp:45:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kms_szCmdRBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   45 | static char [01;35m[Kms_szCmdRBuffer[m[K[MOTION_CMD_BUFFER_SIZE_MAIN];
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K

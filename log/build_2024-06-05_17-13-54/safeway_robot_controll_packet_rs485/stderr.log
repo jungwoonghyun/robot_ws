@@ -1,0 +1,38 @@
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:[m[K In function ‘[01m[KMOTION_STAGE parse_motion_stage(const char*, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:89:23:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+   89 |     for (register int [01;35m[KiStage[m[K = 0; iStage < sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0]); iStage++)
+      |                       [01;35m[K^~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:89:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   89 |     for (register int iStage = 0; [01;35m[KiStage < sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0])[m[K; iStage++)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:[m[K In function ‘[01m[Kconst char* get_motion_stage_name(MOTION_STAGE)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:102:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KMOTION_STAGE[m[K’ {aka ‘[01m[K_enum_MOTION_STAGE[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  102 |     if (motionStage >= 0 && [01;35m[KmotionStage < sizeof(s_rgpszMotionStageNames) / sizeof(s_rgpszMotionStageNames[0])[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:[m[K In function ‘[01m[KSTOP_REASON parse_stop_reason(const char*, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:113:23:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  113 |     for (register int [01;35m[KiReason[m[K = 0; iReason < sizeof(s_rgpszMotionStopReasonNames) / sizeof(s_rgpszMotionStopReasonNames[0]); iReason++)
+      |                       [01;35m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:113:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  113 |     for (register int iReason = 0; [01;35m[KiReason < sizeof(s_rgpszMotionStopReasonNames) / sizeof(s_rgpszMotionStopReasonNames[0])[m[K; iReason++)
+      |                                    [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:[m[K In function ‘[01m[Kint parse_reply_command(const char*, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:165:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  165 |     register int [01;35m[KiArg[m[K;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:170:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  170 |     for (iArg = 0; nArgRemainLen > 0 && [01;35m[KiArg < sizeof(rgpArgs)/sizeof(rgpArgs[0])[m[K; iArg++)
+      |                                         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:264:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnAxesCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  264 |     const int [01;35m[KnAxesCount[m[K = (int)strtol(rgpArgs[2], &pEndStr, 0);
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:[m[K In function ‘[01m[Kint parse_recv_packet(const void*, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:575:56:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K+[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  575 |     unsigned nCrc16Recv = [01;35m[K((unsigned)p[nRecvSize - 3]) + (((unsigned)p[nRecvSize - 2]) << 8)[m[K & 0xffff;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber_wagon.cpp:45:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   45 | static char *pszDevName = [01;35m[K"/dev/ttySerial"[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber.cpp:42:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   42 | static char *pszDevName = [01;35m[K"/dev/ttyMotor"[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~~[m[K

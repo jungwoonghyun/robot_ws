@@ -1,0 +1,443 @@
+[0.481s] Invoking command in '/home/robot/robot_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/install/slam_toolbox
+[0.532s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.978s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.991s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[1.093s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.097s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.116s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.334s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.344s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.990s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.190s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.314s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[2.325s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.060s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.298s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.323s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.330s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.332s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.348s] -- Found tf2_sensor_msgs: 0.25.5 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[3.381s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[3.408s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.438s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[3.492s] -- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)
+[3.704s] -- Found rviz_common: 11.2.10 (/opt/ros/humble/share/rviz_common/cmake)
+[3.738s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.740s] -- Found OGRE
+[3.778s] --   static     : OFF
+[3.778s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.778s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.778s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.778s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.778s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.779s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.779s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.779s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.779s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.779s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.779s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.880s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.881s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.969s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.150s] -- Found rviz_default_plugins: 11.2.10 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[4.959s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[4.961s] -- Found required Ceres dependency: glog
+[4.978s] -- Found required Ceres dependency: gflags
+[4.978s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[5.786s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.415s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.473s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.474s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.474s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.417s] -- Configuring done
+[8.889s] -- Generating done
+[8.898s] -- Build files have been written to: /home/robot/robot_ws/build/slam_toolbox
+[8.929s] Invoked command in '/home/robot/robot_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/install/slam_toolbox
+[8.930s] Invoking command in '/home/robot/robot_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/slam_toolbox -- -j4 -l4
+[9.028s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_c[0m
+[9.042s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[9.074s] [  9%] Built target slam_toolbox__rosidl_generator_c
+[9.078s] [ 10%] Built target slam_toolbox__cpp
+[9.088s] [ 10%] Built target ament_cmake_python_symlink_slam_toolbox
+[9.099s] [ 12%] Built target kartoSlamToolbox
+[9.104s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_cpp[0m
+[9.120s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c[0m
+[9.124s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_c[0m
+[9.134s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_cpp[0m
+[9.171s] [ 21%] Built target slam_toolbox__rosidl_typesupport_cpp
+[9.172s] [ 28%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[9.178s] [ 37%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[9.185s] [ 46%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[9.205s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_c[0m
+[9.221s] [35m[1mConsolidate compiler generated dependencies of target SlamToolboxPlugin[0m
+[9.239s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_cpp[0m
+[9.276s] [ 54%] Built target slam_toolbox__rosidl_typesupport_c
+[9.306s] [ 64%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[9.310s] [ 56%] Built target SlamToolboxPlugin
+[9.314s] [35m[1mConsolidate compiler generated dependencies of target ceres_solver_plugin[0m
+[9.394s] [35m[1mConsolidate compiler generated dependencies of target toolbox_common[0m
+[9.394s] [ 66%] Built target ceres_solver_plugin
+[9.398s] [ 66%] Built target slam_toolbox
+[9.488s] [ 66%] Built target slam_toolbox__py
+[9.500s] [ 71%] Built target toolbox_common
+[9.546s] [35m[1mConsolidate compiler generated dependencies of target async_slam_toolbox[0m
+[9.549s] [35m[1mConsolidate compiler generated dependencies of target sync_slam_toolbox[0m
+[9.562s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_py[0m
+[9.653s] [ 73%] Built target async_slam_toolbox
+[9.669s] [ 81%] Built target slam_toolbox__rosidl_generator_py
+[9.672s] [ 83%] Built target sync_slam_toolbox
+[9.717s] [35m[1mConsolidate compiler generated dependencies of target localization_slam_toolbox[0m
+[9.733s] running egg_info
+[9.741s] [35m[1mConsolidate compiler generated dependencies of target lifelong_slam_toolbox[0m
+[9.742s] writing slam_toolbox.egg-info/PKG-INFO
+[9.743s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[9.743s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[9.752s] [35m[1mConsolidate compiler generated dependencies of target merge_maps_kinematic[0m
+[9.760s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[9.762s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[9.843s] [ 84%] Built target localization_slam_toolbox
+[9.856s] [ 86%] Built target merge_maps_kinematic
+[9.871s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_c__pyext[0m
+[9.880s] [ 86%] Built target ament_cmake_python_build_slam_toolbox_egg
+[9.881s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.886s] [ 88%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[9.898s] [ 89%] Built target lifelong_slam_toolbox
+[9.922s] [35m[1mConsolidate compiler generated dependencies of target sync_slam_toolbox_node[0m
+[9.934s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_c__pyext[0m
+[9.959s] [ 90%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[9.969s] [35m[1mConsolidate compiler generated dependencies of target async_slam_toolbox_node[0m
+[9.972s] [ 92%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[9.986s] [ 93%] Built target sync_slam_toolbox_node
+[9.996s] [35m[1mConsolidate compiler generated dependencies of target localization_slam_toolbox_node[0m
+[10.030s] [35m[1mConsolidate compiler generated dependencies of target lifelong_slam_toolbox_node[0m
+[10.051s] [35m[1mConsolidate compiler generated dependencies of target map_and_localization_slam_toolbox[0m
+[10.088s] [ 95%] Built target localization_slam_toolbox_node
+[10.108s] [ 96%] Built target map_and_localization_slam_toolbox
+[10.108s] [ 97%] Built target async_slam_toolbox_node
+[10.135s] [35m[1mConsolidate compiler generated dependencies of target map_and_localization_slam_toolbox_node[0m
+[10.143s] [ 99%] Built target lifelong_slam_toolbox_node
+[10.184s] [100%] Built target map_and_localization_slam_toolbox_node
+[10.210s] Invoked command in '/home/robot/robot_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/build/slam_toolbox -- -j4 -l4
+[10.770s] Invoking command in '/home/robot/robot_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/slam_toolbox
+[10.782s] -- Install configuration: "Release"
+[10.783s] -- Execute custom install script
+[10.784s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include//karto_sdk/Karto.h
+[10.784s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include//karto_sdk/Macros.h
+[10.784s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include//karto_sdk/Mapper.h
+[10.785s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include//karto_sdk/Math.h
+[10.785s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include//karto_sdk/Types.h
+[10.785s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[10.785s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[10.785s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[10.786s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h
+[10.788s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h
+[10.789s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h
+[10.789s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h
+[10.789s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h
+[10.789s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h
+[10.789s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[10.790s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[10.790s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[10.791s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h
+[10.791s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h
+[10.791s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h
+[10.792s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h
+[10.792s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h
+[10.792s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h
+[10.793s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h
+[10.793s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h
+[10.793s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h
+[10.794s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h
+[10.794s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h
+[10.794s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h
+[10.795s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[10.795s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[10.796s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[10.796s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[10.798s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[10.799s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[10.799s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h
+[10.800s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h
+[10.800s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h
+[10.800s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h
+[10.802s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h
+[10.802s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h
+[10.802s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[10.804s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[10.806s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.806s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[10.807s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[10.807s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[10.808s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[10.808s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[10.808s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[10.809s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[10.809s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[10.809s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[10.810s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[10.811s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp
+[10.811s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp
+[10.812s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp
+[10.812s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp
+[10.812s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp
+[10.813s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp
+[10.813s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp
+[10.814s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp
+[10.814s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp
+[10.814s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp
+[10.815s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[10.815s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[10.816s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[10.816s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[10.816s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[10.817s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[10.817s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[10.817s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[10.818s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[10.818s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[10.818s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[10.819s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[10.819s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp
+[10.819s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp
+[10.820s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp
+[10.820s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp
+[10.820s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp
+[10.821s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp
+[10.821s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[10.821s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[10.822s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[10.822s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[10.822s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[10.823s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[10.823s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp
+[10.823s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp
+[10.824s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp
+[10.824s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp
+[10.824s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp
+[10.825s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp
+[10.826s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.826s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[10.827s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[10.827s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[10.827s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[10.828s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[10.828s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[10.829s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[10.829s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[10.829s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[10.830s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[10.831s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.831s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[10.832s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[10.832s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[10.832s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[10.833s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[10.833s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[10.833s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[10.834s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[10.834s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[10.834s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[10.835s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[10.835s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[10.836s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[10.836s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[10.836s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[10.837s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[10.837s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[10.838s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[10.838s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[10.838s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[10.839s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[10.839s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[10.840s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/PKG-INFO
+[10.840s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/SOURCES.txt
+[10.841s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/dependency_links.txt
+[10.841s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.0-py3.10.egg-info/top_level.txt
+[10.842s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py
+[10.843s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c
+[10.843s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.843s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c
+[10.844s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so
+[10.844s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.844s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.845s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.845s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py
+[10.845s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py
+[10.846s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c
+[10.846s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py
+[10.846s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py
+[10.847s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c
+[10.848s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c
+[10.848s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[10.849s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+[10.850s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py
+[10.850s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c
+[10.850s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py
+[10.851s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c
+[10.851s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py
+[10.851s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c
+[10.852s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py
+[10.852s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c
+[10.852s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[10.853s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+[10.853s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py
+[10.853s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c
+[10.854s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.854s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.855s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.855s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[10.856s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[10.856s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[10.857s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[10.857s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[10.857s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[10.858s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[10.858s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[10.859s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[10.859s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[10.859s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv
+[10.860s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg
+[10.860s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg
+[10.861s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv
+[10.861s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg
+[10.861s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg
+[10.862s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv
+[10.862s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg
+[10.863s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg
+[10.863s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv
+[10.863s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg
+[10.864s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg
+[10.864s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv
+[10.865s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg
+[10.865s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg
+[10.865s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv
+[10.866s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg
+[10.866s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg
+[10.867s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv
+[10.867s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg
+[10.868s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg
+[10.868s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv
+[10.868s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg
+[10.869s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg
+[10.869s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv
+[10.870s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg
+[10.870s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg
+[10.871s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv
+[10.871s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg
+[10.871s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg
+[10.872s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml
+[10.872s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml
+[10.873s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[10.873s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[10.874s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[10.874s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node
+[10.874s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node
+[10.875s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[10.875s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/libtoolbox_common.so
+[10.875s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[10.876s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/libceres_solver_plugin.so
+[10.876s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[10.877s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[10.877s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[10.877s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[10.878s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so
+[10.878s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[10.879s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[10.879s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp
+[10.880s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[10.880s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[10.880s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[10.881s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[10.881s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[10.881s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[10.882s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[10.882s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[10.882s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[10.883s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[10.883s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[10.884s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[10.884s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[10.885s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[10.885s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[10.886s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[10.886s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[10.888s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[10.889s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[10.889s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[10.890s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[10.890s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[10.891s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[10.891s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[10.891s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[10.891s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz
+[10.892s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/solver_plugins.xml
+[10.892s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/rviz_plugins.xml
+[10.893s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[10.893s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[10.893s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[10.894s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[10.894s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[10.895s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[10.895s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[10.896s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[10.896s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[10.897s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[10.897s] -- Symlinking: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/package.dsv
+[10.912s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[10.913s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[10.913s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[10.913s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox
+[10.913s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[10.913s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.913s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.913s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[10.914s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[10.914s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.914s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.914s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[10.914s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[10.914s] -- Up-to-date symlink: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/package.xml
+[10.915s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[10.915s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[10.915s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[10.916s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[10.916s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[10.917s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[10.917s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[10.975s] Listing '/home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...
+[10.975s] Compiling '/home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py'...
+[10.976s] Listing '/home/robot/robot_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...
+[10.982s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so
+[10.983s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake
+[10.983s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake
+[10.983s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake
+[10.984s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake
+[10.984s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake
+[10.984s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.985s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[10.985s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[10.985s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[10.986s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[10.986s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[10.986s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[10.987s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[10.987s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[10.987s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[10.988s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake
+[10.988s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake
+[10.988s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[10.988s] -- Up-to-date: /home/robot/robot_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[10.998s] Invoked command in '/home/robot/robot_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/robot_ws/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/build/slam_toolbox

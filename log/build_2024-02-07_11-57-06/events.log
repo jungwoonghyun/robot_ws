@@ -1,0 +1,693 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (gl_ros2_driver) JobQueued: {'identifier': 'gl_ros2_driver', 'dependencies': OrderedDict()}
+[0.000295] (gl_ros2_driver_udp) JobQueued: {'identifier': 'gl_ros2_driver_udp', 'dependencies': OrderedDict()}
+[0.000323] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.000348] (my_first_ros_rclcpp_pkg) JobQueued: {'identifier': 'my_first_ros_rclcpp_pkg', 'dependencies': OrderedDict()}
+[0.000372] (safeway_robot_controll_packet_RS485) JobQueued: {'identifier': 'safeway_robot_controll_packet_RS485', 'dependencies': OrderedDict()}
+[0.000396] (urdf_tutorial) JobQueued: {'identifier': 'urdf_tutorial', 'dependencies': OrderedDict()}
+[0.001148] (gl_ros2_driver) JobStarted: {'identifier': 'gl_ros2_driver'}
+[0.095643] (gl_ros2_driver_udp) JobStarted: {'identifier': 'gl_ros2_driver_udp'}
+[0.099727] (-) TimerEvent: {}
+[0.175271] (ld08_driver) JobStarted: {'identifier': 'ld08_driver'}
+[0.199845] (-) TimerEvent: {}
+[0.262092] (my_first_ros_rclcpp_pkg) JobStarted: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.300129] (-) TimerEvent: {}
+[0.352425] (gl_ros2_driver) JobProgress: {'identifier': 'gl_ros2_driver', 'progress': 'cmake'}
+[0.353710] (gl_ros2_driver) JobProgress: {'identifier': 'gl_ros2_driver', 'progress': 'build'}
+[0.354701] (gl_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/robot_ws/build/gl_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/robot/robot_ws/build/gl_ros2_driver', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/gl_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.360389] (gl_ros2_driver_udp) JobProgress: {'identifier': 'gl_ros2_driver_udp', 'progress': 'cmake'}
+[0.361383] (gl_ros2_driver_udp) JobProgress: {'identifier': 'gl_ros2_driver_udp', 'progress': 'build'}
+[0.361750] (gl_ros2_driver_udp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/robot_ws/build/gl_ros2_driver_udp', '--', '-j4', '-l4'], 'cwd': '/home/robot/robot_ws/build/gl_ros2_driver_udp', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/gl_ros2_driver_udp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.365930] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'cmake'}
+[0.369603] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'build'}
+[0.369693] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/robot_ws/build/ld08_driver', '--', '-j4', '-l4'], 'cwd': '/home/robot/robot_ws/build/ld08_driver', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/ld08_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.400440] (-) TimerEvent: {}
+[0.406013] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'cmake'}
+[0.410993] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'build'}
+[0.411084] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.500562] (-) TimerEvent: {}
+[0.547184] (gl_ros2_driver_udp) StdoutLine: {'line': b'[ 18%] Built target udp\n'}
+[0.573242] (ld08_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o\x1b[0m\n'}
+[0.580471] (gl_ros2_driver_udp) StdoutLine: {'line': b'[ 63%] Built target serial\n'}
+[0.583062] (ld08_driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o\x1b[0m\n'}
+[0.587043] (gl_ros2_driver) StdoutLine: {'line': b'[ 45%] Built target serial\n'}
+[0.593701] (gl_ros2_driver) StdoutLine: {'line': b'[ 63%] Built target udp\n'}
+[0.604228] (-) TimerEvent: {}
+[0.614923] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o\x1b[0m\n'}
+[0.621528] (gl_ros2_driver) StdoutLine: {'line': b'[ 81%] Built target gl_driver\n'}
+[0.622968] (ld08_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o\x1b[0m\n'}
+[0.639481] (ld08_driver) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o\x1b[0m\n'}
+[0.653583] (gl_ros2_driver_udp) StdoutLine: {'line': b'[ 81%] Built target gl_driver\n'}
+[0.671395] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o\x1b[0m\n'}
+[0.707167] (-) TimerEvent: {}
+[0.795171] (gl_ros2_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/gl_ros2_driver_node.dir/src/gl_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.807779] (-) TimerEvent: {}
+[0.849526] (gl_ros2_driver_udp) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/gl_ros2_driver_udp_node.dir/src/gl_ros2_driver_udp_node.cpp.o\x1b[0m\n'}
+[0.907988] (-) TimerEvent: {}
+[1.010423] (-) TimerEvent: {}
+[1.110793] (-) TimerEvent: {}
+[1.211601] (-) TimerEvent: {}
+[1.312387] (-) TimerEvent: {}
+[1.412728] (-) TimerEvent: {}
+[1.513068] (-) TimerEvent: {}
+[1.613421] (-) TimerEvent: {}
+[1.714142] (-) TimerEvent: {}
+[1.814960] (-) TimerEvent: {}
+[1.915302] (-) TimerEvent: {}
+[2.015653] (-) TimerEvent: {}
+[2.116448] (-) TimerEvent: {}
+[2.232557] (-) TimerEvent: {}
+[2.332945] (-) TimerEvent: {}
+[2.433382] (-) TimerEvent: {}
+[2.534183] (-) TimerEvent: {}
+[2.641166] (-) TimerEvent: {}
+[2.743294] (-) TimerEvent: {}
+[2.844090] (-) TimerEvent: {}
+[2.944902] (-) TimerEvent: {}
+[3.050305] (-) TimerEvent: {}
+[3.150863] (-) TimerEvent: {}
+[3.251384] (-) TimerEvent: {}
+[3.352286] (-) TimerEvent: {}
+[3.471441] (-) TimerEvent: {}
+[3.571811] (-) TimerEvent: {}
+[3.672674] (-) TimerEvent: {}
+[3.773951] (-) TimerEvent: {}
+[3.874869] (-) TimerEvent: {}
+[3.975365] (-) TimerEvent: {}
+[4.077478] (-) TimerEvent: {}
+[4.178255] (-) TimerEvent: {}
+[4.279099] (-) TimerEvent: {}
+[4.379492] (-) TimerEvent: {}
+[4.485004] (-) TimerEvent: {}
+[4.588652] (-) TimerEvent: {}
+[4.709838] (-) TimerEvent: {}
+[4.810849] (-) TimerEvent: {}
+[4.911684] (-) TimerEvent: {}
+[5.012512] (-) TimerEvent: {}
+[5.113445] (-) TimerEvent: {}
+[5.214386] (-) TimerEvent: {}
+[5.315220] (-) TimerEvent: {}
+[5.416056] (-) TimerEvent: {}
+[5.516879] (-) TimerEvent: {}
+[5.617400] (-) TimerEvent: {}
+[5.718342] (-) TimerEvent: {}
+[5.819169] (-) TimerEvent: {}
+[5.919975] (-) TimerEvent: {}
+[6.020341] (-) TimerEvent: {}
+[6.124320] (-) TimerEvent: {}
+[6.225277] (-) TimerEvent: {}
+[6.327422] (-) TimerEvent: {}
+[6.428014] (-) TimerEvent: {}
+[6.528530] (-) TimerEvent: {}
+[6.629011] (-) TimerEvent: {}
+[6.729525] (-) TimerEvent: {}
+[6.830018] (-) TimerEvent: {}
+[6.930664] (-) TimerEvent: {}
+[7.031149] (-) TimerEvent: {}
+[7.131651] (-) TimerEvent: {}
+[7.232142] (-) TimerEvent: {}
+[7.332644] (-) TimerEvent: {}
+[7.433151] (-) TimerEvent: {}
+[7.533634] (-) TimerEvent: {}
+[7.634124] (-) TimerEvent: {}
+[7.734623] (-) TimerEvent: {}
+[7.835120] (-) TimerEvent: {}
+[7.935604] (-) TimerEvent: {}
+[8.036110] (-) TimerEvent: {}
+[8.136621] (-) TimerEvent: {}
+[8.237157] (-) TimerEvent: {}
+[8.337654] (-) TimerEvent: {}
+[8.439768] (-) TimerEvent: {}
+[8.540430] (-) TimerEvent: {}
+[8.641280] (-) TimerEvent: {}
+[8.741751] (-) TimerEvent: {}
+[8.842236] (-) TimerEvent: {}
+[8.942753] (-) TimerEvent: {}
+[9.043244] (-) TimerEvent: {}
+[9.143738] (-) TimerEvent: {}
+[9.244246] (-) TimerEvent: {}
+[9.344769] (-) TimerEvent: {}
+[9.445276] (-) TimerEvent: {}
+[9.545983] (-) TimerEvent: {}
+[9.646591] (-) TimerEvent: {}
+[9.747070] (-) TimerEvent: {}
+[9.847915] (-) TimerEvent: {}
+[9.948287] (-) TimerEvent: {}
+[10.048777] (-) TimerEvent: {}
+[10.149279] (-) TimerEvent: {}
+[10.249781] (-) TimerEvent: {}
+[10.350271] (-) TimerEvent: {}
+[10.450774] (-) TimerEvent: {}
+[10.551260] (-) TimerEvent: {}
+[10.652037] (-) TimerEvent: {}
+[10.752538] (-) TimerEvent: {}
+[10.853030] (-) TimerEvent: {}
+[10.953537] (-) TimerEvent: {}
+[11.054041] (-) TimerEvent: {}
+[11.154549] (-) TimerEvent: {}
+[11.255053] (-) TimerEvent: {}
+[11.355556] (-) TimerEvent: {}
+[11.456056] (-) TimerEvent: {}
+[11.560013] (-) TimerEvent: {}
+[11.660519] (-) TimerEvent: {}
+[11.761009] (-) TimerEvent: {}
+[11.861519] (-) TimerEvent: {}
+[11.962010] (-) TimerEvent: {}
+[12.062509] (-) TimerEvent: {}
+[12.163014] (-) TimerEvent: {}
+[12.263904] (-) TimerEvent: {}
+[12.364656] (-) TimerEvent: {}
+[12.465538] (-) TimerEvent: {}
+[12.566019] (-) TimerEvent: {}
+[12.666504] (-) TimerEvent: {}
+[12.766991] (-) TimerEvent: {}
+[12.867815] (-) TimerEvent: {}
+[12.968300] (-) TimerEvent: {}
+[13.068794] (-) TimerEvent: {}
+[13.169297] (-) TimerEvent: {}
+[13.269792] (-) TimerEvent: {}
+[13.370309] (-) TimerEvent: {}
+[13.470825] (-) TimerEvent: {}
+[13.571436] (-) TimerEvent: {}
+[13.671949] (-) TimerEvent: {}
+[13.772458] (-) TimerEvent: {}
+[13.872955] (-) TimerEvent: {}
+[13.973853] (-) TimerEvent: {}
+[14.043905] (ld08_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/ld08_driver/src/transform.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSlTransform::SlTransform(LDVersion, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.045579] (ld08_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/ld08_driver/src/transform.cpp:30:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kto_right_hand\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.046172] (ld08_driver) StderrLine: {'line': b'   30 | SlTransform::SlTransform(LDVersion version, \x1b[01;35m\x1b[Kbool to_right_hand\x1b[m\x1b[K)\n'}
+[14.046704] (ld08_driver) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.074393] (-) TimerEvent: {}
+[14.175002] (-) TimerEvent: {}
+[14.277732] (-) TimerEvent: {}
+[14.378202] (-) TimerEvent: {}
+[14.478700] (-) TimerEvent: {}
+[14.579201] (-) TimerEvent: {}
+[14.679703] (-) TimerEvent: {}
+[14.780197] (-) TimerEvent: {}
+[14.880696] (-) TimerEvent: {}
+[14.981594] (-) TimerEvent: {}
+[15.082419] (-) TimerEvent: {}
+[15.182902] (-) TimerEvent: {}
+[15.283412] (-) TimerEvent: {}
+[15.383927] (-) TimerEvent: {}
+[15.484428] (-) TimerEvent: {}
+[15.585452] (-) TimerEvent: {}
+[15.685963] (-) TimerEvent: {}
+[15.786515] (-) TimerEvent: {}
+[15.887012] (-) TimerEvent: {}
+[15.987512] (-) TimerEvent: {}
+[16.088002] (-) TimerEvent: {}
+[16.188500] (-) TimerEvent: {}
+[16.288985] (-) TimerEvent: {}
+[16.389482] (-) TimerEvent: {}
+[16.489964] (-) TimerEvent: {}
+[16.590466] (-) TimerEvent: {}
+[16.691136] (-) TimerEvent: {}
+[16.791617] (-) TimerEvent: {}
+[16.891983] (-) TimerEvent: {}
+[16.992836] (-) TimerEvent: {}
+[17.106445] (-) TimerEvent: {}
+[17.206883] (-) TimerEvent: {}
+[17.307249] (-) TimerEvent: {}
+[17.407625] (-) TimerEvent: {}
+[17.508276] (-) TimerEvent: {}
+[17.617392] (-) TimerEvent: {}
+[17.717970] (-) TimerEvent: {}
+[17.818479] (-) TimerEvent: {}
+[17.919011] (-) TimerEvent: {}
+[18.019866] (-) TimerEvent: {}
+[18.121189] (-) TimerEvent: {}
+[18.222130] (-) TimerEvent: {}
+[18.322985] (-) TimerEvent: {}
+[18.423774] (-) TimerEvent: {}
+[18.524613] (-) TimerEvent: {}
+[18.625433] (-) TimerEvent: {}
+[18.725933] (-) TimerEvent: {}
+[18.826802] (-) TimerEvent: {}
+[18.927288] (-) TimerEvent: {}
+[19.027671] (-) TimerEvent: {}
+[19.128040] (-) TimerEvent: {}
+[19.228792] (-) TimerEvent: {}
+[19.329155] (-) TimerEvent: {}
+[19.429505] (-) TimerEvent: {}
+[19.529854] (-) TimerEvent: {}
+[19.630207] (-) TimerEvent: {}
+[19.731550] (-) TimerEvent: {}
+[19.832404] (-) TimerEvent: {}
+[19.933301] (-) TimerEvent: {}
+[20.034213] (-) TimerEvent: {}
+[20.135373] (-) TimerEvent: {}
+[20.235933] (-) TimerEvent: {}
+[20.336436] (-) TimerEvent: {}
+[20.436942] (-) TimerEvent: {}
+[20.537787] (-) TimerEvent: {}
+[20.638263] (-) TimerEvent: {}
+[20.738759] (-) TimerEvent: {}
+[20.839328] (-) TimerEvent: {}
+[20.939939] (-) TimerEvent: {}
+[21.040419] (-) TimerEvent: {}
+[21.141261] (-) TimerEvent: {}
+[21.241744] (-) TimerEvent: {}
+[21.342223] (-) TimerEvent: {}
+[21.442583] (-) TimerEvent: {}
+[21.542925] (-) TimerEvent: {}
+[21.643932] (-) TimerEvent: {}
+[21.682364] (gl_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gl_ros2_driver_node\x1b[0m\n'}
+[21.744040] (-) TimerEvent: {}
+[21.844806] (-) TimerEvent: {}
+[21.927364] (ld08_driver) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable ld08_driver\x1b[0m\n'}
+[21.944917] (-) TimerEvent: {}
+[22.048427] (-) TimerEvent: {}
+[22.159178] (-) TimerEvent: {}
+[22.259706] (-) TimerEvent: {}
+[22.367824] (-) TimerEvent: {}
+[22.482060] (-) TimerEvent: {}
+[22.582474] (-) TimerEvent: {}
+[22.683751] (-) TimerEvent: {}
+[22.784320] (-) TimerEvent: {}
+[22.798167] (gl_ros2_driver) StdoutLine: {'line': b'[100%] Built target gl_ros2_driver_node\n'}
+[22.833160] (gl_ros2_driver) CommandEnded: {'returncode': 0}
+[22.884433] (-) TimerEvent: {}
+[22.985289] (-) TimerEvent: {}
+[23.030720] (ld08_driver) StdoutLine: {'line': b'[100%] Built target ld08_driver\n'}
+[23.068760] (ld08_driver) CommandEnded: {'returncode': 0}
+[23.085384] (-) TimerEvent: {}
+[23.187013] (-) TimerEvent: {}
+[23.210018] (gl_ros2_driver) JobProgress: {'identifier': 'gl_ros2_driver', 'progress': 'install'}
+[23.244393] (gl_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/robot_ws/build/gl_ros2_driver'], 'cwd': '/home/robot/robot_ws/build/gl_ros2_driver', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/gl_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[23.274695] (gl_ros2_driver) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[23.280571] (gl_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/gl_ros2_driver/lib/gl_ros2_driver/gl_ros2_driver_node\n'}
+[23.284022] (gl_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/robot_ws/install/gl_ros2_driver/lib/gl_ros2_driver/gl_ros2_driver_node" to ""\n'}
+[23.286410] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/launch\n'}
+[23.287376] (-) TimerEvent: {}
+[23.288144] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/launch/gl_ros2_driver.py\n'}
+[23.289153] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/launch/view_gl_ros2_driver.py\n'}
+[23.290071] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/rviz\n'}
+[23.291053] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/rviz/config.rviz\n'}
+[23.292263] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/ament_index/resource_index/package_run_dependencies/gl_ros2_driver\n'}
+[23.292961] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/ament_index/resource_index/parent_prefix_path/gl_ros2_driver\n'}
+[23.293634] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/environment/ament_prefix_path.sh\n'}
+[23.295938] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[23.296056] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/environment/path.sh\n'}
+[23.296144] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/environment/path.dsv\n'}
+[23.296229] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/local_setup.bash\n'}
+[23.296312] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/local_setup.sh\n'}
+[23.296392] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/local_setup.zsh\n'}
+[23.296472] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/local_setup.dsv\n'}
+[23.297027] (gl_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/package.dsv\n'}
+[23.297189] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/ament_index/resource_index/packages/gl_ros2_driver\n'}
+[23.297290] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/cmake/gl_ros2_driverConfig.cmake\n'}
+[23.297379] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/cmake/gl_ros2_driverConfig-version.cmake\n'}
+[23.306138] (gl_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver/share/gl_ros2_driver/package.xml\n'}
+[23.309256] (gl_ros2_driver) CommandEnded: {'returncode': 0}
+[23.387570] (-) TimerEvent: {}
+[23.492269] (-) TimerEvent: {}
+[23.564549] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'install'}
+[23.564944] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/robot_ws/build/ld08_driver'], 'cwd': '/home/robot/robot_ws/build/ld08_driver', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/ld08_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[23.585414] (ld08_driver) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[23.588319] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/launch\n'}
+[23.592388] (-) TimerEvent: {}
+[23.594984] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py\n'}
+[23.596029] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/ld08_driver/lib/ld08_driver/ld08_driver\n'}
+[23.605189] (ld08_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/robot_ws/install/ld08_driver/lib/ld08_driver/ld08_driver" to ""\n'}
+[23.606875] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver\n'}
+[23.607890] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver\n'}
+[23.608528] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh\n'}
+[23.609134] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv\n'}
+[23.609597] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/environment/path.sh\n'}
+[23.610043] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv\n'}
+[23.610700] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/local_setup.bash\n'}
+[23.611146] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/local_setup.sh\n'}
+[23.611590] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh\n'}
+[23.612056] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv\n'}
+[23.612502] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/package.dsv\n'}
+[23.623431] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver\n'}
+[23.623721] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.625905] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.627589] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake\n'}
+[23.628620] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake\n'}
+[23.629234] (ld08_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/ld08_driver/share/ld08_driver/package.xml\n'}
+[23.638084] (ld08_driver) CommandEnded: {'returncode': 0}
+[23.704040] (-) TimerEvent: {}
+[23.804959] (-) TimerEvent: {}
+[23.917811] (-) TimerEvent: {}
+[24.020151] (-) TimerEvent: {}
+[24.126638] (-) TimerEvent: {}
+[24.236359] (-) TimerEvent: {}
+[24.337417] (-) TimerEvent: {}
+[24.443709] (-) TimerEvent: {}
+[24.459611] (gl_ros2_driver) JobEnded: {'identifier': 'gl_ros2_driver', 'rc': 0}
+[24.465560] (safeway_robot_controll_packet_RS485) JobStarted: {'identifier': 'safeway_robot_controll_packet_RS485'}
+[24.544732] (-) TimerEvent: {}
+[24.645636] (-) TimerEvent: {}
+[24.671860] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable helloworld_publisher\x1b[0m\n'}
+[24.757447] (-) TimerEvent: {}
+[24.857945] (-) TimerEvent: {}
+[24.964790] (-) TimerEvent: {}
+[25.050801] (ld08_driver) JobEnded: {'identifier': 'ld08_driver', 'rc': 0}
+[25.053306] (urdf_tutorial) JobStarted: {'identifier': 'urdf_tutorial'}
+[25.065776] (-) TimerEvent: {}
+[25.166196] (-) TimerEvent: {}
+[25.273308] (-) TimerEvent: {}
+[25.390072] (-) TimerEvent: {}
+[25.490469] (-) TimerEvent: {}
+[25.508665] (safeway_robot_controll_packet_RS485) JobProgress: {'identifier': 'safeway_robot_controll_packet_RS485', 'progress': 'cmake'}
+[25.515882] (safeway_robot_controll_packet_RS485) JobProgress: {'identifier': 'safeway_robot_controll_packet_RS485', 'progress': 'build'}
+[25.516257] (safeway_robot_controll_packet_RS485) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485', '--', '-j4', '-l4'], 'cwd': '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[25.590584] (-) TimerEvent: {}
+[25.609869] (gl_ros2_driver_udp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gl_ros2_driver_udp_node\x1b[0m\n'}
+[25.658563] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 75%] Built target helloworld_publisher\n'}
+[25.691486] (-) TimerEvent: {}
+[25.791834] (-) TimerEvent: {}
+[25.851654] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/packet_RS485_publisher.dir/src/packet_RS485_publisher.cpp.o\x1b[0m\n'}
+[25.893999] (-) TimerEvent: {}
+[25.994342] (-) TimerEvent: {}
+[26.094677] (-) TimerEvent: {}
+[26.168755] (gl_ros2_driver_udp) StdoutLine: {'line': b'[100%] Built target gl_ros2_driver_udp_node\n'}
+[26.197830] (-) TimerEvent: {}
+[26.298173] (-) TimerEvent: {}
+[26.398624] (-) TimerEvent: {}
+[26.499066] (-) TimerEvent: {}
+[26.605069] (-) TimerEvent: {}
+[26.707021] (-) TimerEvent: {}
+[26.809160] (-) TimerEvent: {}
+[26.909502] (-) TimerEvent: {}
+[27.009829] (-) TimerEvent: {}
+[27.116951] (-) TimerEvent: {}
+[27.218648] (-) TimerEvent: {}
+[27.265911] (gl_ros2_driver_udp) CommandEnded: {'returncode': 0}
+[27.318756] (-) TimerEvent: {}
+[27.419532] (-) TimerEvent: {}
+[27.520319] (-) TimerEvent: {}
+[27.629151] (-) TimerEvent: {}
+[27.689413] (gl_ros2_driver_udp) JobProgress: {'identifier': 'gl_ros2_driver_udp', 'progress': 'install'}
+[27.689747] (gl_ros2_driver_udp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/robot_ws/build/gl_ros2_driver_udp'], 'cwd': '/home/robot/robot_ws/build/gl_ros2_driver_udp', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/gl_ros2_driver_udp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[27.710918] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[27.711139] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/lib/gl_ros2_driver_udp/gl_ros2_driver_udp_node\n'}
+[27.715557] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/robot_ws/install/gl_ros2_driver_udp/lib/gl_ros2_driver_udp/gl_ros2_driver_udp_node" to ""\n'}
+[27.715769] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch\n'}
+[27.715873] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch/gl_ros2_driver_udp.py\n'}
+[27.715964] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch/view_gl_ros2_driver_udp.py\n'}
+[27.716060] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch/__pycache__\n'}
+[27.716152] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/launch/__pycache__/gl_ros2_driver_udp.cpython-310.pyc\n'}
+[27.716238] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/rviz\n'}
+[27.716320] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/rviz/config.rviz\n'}
+[27.716402] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/ament_index/resource_index/package_run_dependencies/gl_ros2_driver_udp\n'}
+[27.716484] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/ament_index/resource_index/parent_prefix_path/gl_ros2_driver_udp\n'}
+[27.716566] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/environment/ament_prefix_path.sh\n'}
+[27.716649] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/environment/ament_prefix_path.dsv\n'}
+[27.716735] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/environment/path.sh\n'}
+[27.716820] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/environment/path.dsv\n'}
+[27.716903] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/local_setup.bash\n'}
+[27.716988] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/local_setup.sh\n'}
+[27.717074] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/local_setup.zsh\n'}
+[27.717187] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/local_setup.dsv\n'}
+[27.717286] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/package.dsv\n'}
+[27.717370] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/ament_index/resource_index/packages/gl_ros2_driver_udp\n'}
+[27.717457] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/cmake/gl_ros2_driver_udpConfig.cmake\n'}
+[27.717541] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/cmake/gl_ros2_driver_udpConfig-version.cmake\n'}
+[27.717627] (gl_ros2_driver_udp) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/gl_ros2_driver_udp/share/gl_ros2_driver_udp/package.xml\n'}
+[27.730452] (-) TimerEvent: {}
+[27.737509] (gl_ros2_driver_udp) CommandEnded: {'returncode': 0}
+[27.830536] (-) TimerEvent: {}
+[27.931441] (-) TimerEvent: {}
+[28.031854] (-) TimerEvent: {}
+[28.132342] (-) TimerEvent: {}
+[28.232800] (-) TimerEvent: {}
+[28.336841] (-) TimerEvent: {}
+[28.440257] (-) TimerEvent: {}
+[28.503934] (gl_ros2_driver_udp) JobEnded: {'identifier': 'gl_ros2_driver_udp', 'rc': 0}
+[28.507293] (urdf_tutorial) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/urdf_tutorial', 'build', '--build-base', '/home/robot/robot_ws/build/urdf_tutorial/build', 'install', '--record', '/home/robot/robot_ws/build/urdf_tutorial/install.log', '--single-version-externally-managed'], 'cwd': '/home/robot/robot_ws/src/urdf_tutorial', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'ROS_NAMESPACE': 'robot1', 'GIO_MODULE_DIR': '/home/robot/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '0', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robot', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.86.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/robot/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/150/usr/share/code/code', 'MANAGERPID': '1304', 'SYSTEMD_EXEC_PID': '1522', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2975', '_colcon_cd_root': '/home/robot/robot_ws', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robot/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:31021', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'robot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496', 'GTK_EXE_PREFIX': '/snap/code/150/usr', 'INVOCATION_ID': 'e66eb19a21d24c7180523ee80468377d', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/150/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2MFSI2', 'LS_COLORS': '', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dfc9936bcd.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/robot/snap/code/150/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/robot/robot_ws/build/urdf_tutorial', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/robot_ws/build/urdf_tutorial/prefix_override:/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver'}, 'shell': False}
+[28.540494] (-) TimerEvent: {}
+[28.641414] (-) TimerEvent: {}
+[28.743924] (-) TimerEvent: {}
+[28.844286] (-) TimerEvent: {}
+[28.945469] (-) TimerEvent: {}
+[29.046487] (-) TimerEvent: {}
+[29.156338] (-) TimerEvent: {}
+[29.265168] (-) TimerEvent: {}
+[29.368489] (-) TimerEvent: {}
+[29.378697] (urdf_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[29.380976] (urdf_tutorial) StdoutLine: {'line': b'writing ../../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO\n'}
+[29.390498] (urdf_tutorial) StdoutLine: {'line': b'writing dependency_links to ../../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt\n'}
+[29.391419] (urdf_tutorial) StdoutLine: {'line': b'writing entry points to ../../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt\n'}
+[29.391940] (urdf_tutorial) StdoutLine: {'line': b'writing requirements to ../../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt\n'}
+[29.392367] (urdf_tutorial) StdoutLine: {'line': b'writing top-level names to ../../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt\n'}
+[29.402103] (urdf_tutorial) StdoutLine: {'line': b"reading manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'\n"}
+[29.405128] (urdf_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'\n"}
+[29.405612] (urdf_tutorial) StdoutLine: {'line': b'running build\n'}
+[29.405847] (urdf_tutorial) StdoutLine: {'line': b'running build_py\n'}
+[29.407308] (urdf_tutorial) StdoutLine: {'line': b'running install\n'}
+[29.411284] (urdf_tutorial) StdoutLine: {'line': b'running install_lib\n'}
+[29.419640] (urdf_tutorial) StdoutLine: {'line': b'running install_data\n'}
+[29.421184] (urdf_tutorial) StdoutLine: {'line': b'running install_egg_info\n'}
+[29.430198] (urdf_tutorial) StdoutLine: {'line': b"removing '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[29.437441] (urdf_tutorial) StdoutLine: {'line': b'Copying ../../build/urdf_tutorial/urdf_tutorial.egg-info to /home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info\n'}
+[29.440381] (urdf_tutorial) StdoutLine: {'line': b'running install_scripts\n'}
+[29.469061] (-) TimerEvent: {}
+[29.523381] (urdf_tutorial) StdoutLine: {'line': b"writing list of installed files to '/home/robot/robot_ws/build/urdf_tutorial/install.log'\n"}
+[29.569162] (-) TimerEvent: {}
+[29.635834] (urdf_tutorial) CommandEnded: {'returncode': 0}
+[29.674591] (-) TimerEvent: {}
+[29.775020] (-) TimerEvent: {}
+[29.847358] (urdf_tutorial) JobEnded: {'identifier': 'urdf_tutorial', 'rc': 0}
+[29.876616] (-) TimerEvent: {}
+[29.976991] (-) TimerEvent: {}
+[30.077407] (-) TimerEvent: {}
+[30.178135] (-) TimerEvent: {}
+[30.286221] (-) TimerEvent: {}
+[30.386577] (-) TimerEvent: {}
+[30.487561] (-) TimerEvent: {}
+[30.588943] (-) TimerEvent: {}
+[30.689285] (-) TimerEvent: {}
+[30.791715] (-) TimerEvent: {}
+[30.894076] (-) TimerEvent: {}
+[30.997161] (-) TimerEvent: {}
+[31.040647] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable helloworld_subscriber\x1b[0m\n'}
+[31.097267] (-) TimerEvent: {}
+[31.198564] (-) TimerEvent: {}
+[31.302633] (-) TimerEvent: {}
+[31.402954] (-) TimerEvent: {}
+[31.503440] (-) TimerEvent: {}
+[31.603979] (-) TimerEvent: {}
+[31.632556] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[100%] Built target helloworld_subscriber\n'}
+[31.653874] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[31.701188] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'install'}
+[31.701388] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg'], 'cwd': '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[31.704613] (-) TimerEvent: {}
+[31.713254] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[31.718770] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_publisher\n'}
+[31.719055] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_publisher" to ""\n'}
+[31.728800] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_subscriber\n'}
+[31.741947] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_subscriber" to ""\n'}
+[31.742164] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg\n'}
+[31.742306] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg\n'}
+[31.742404] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh\n'}
+[31.742606] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv\n'}
+[31.743177] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh\n'}
+[31.743452] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv\n'}
+[31.743710] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash\n'}
+[31.744014] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh\n'}
+[31.744308] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh\n'}
+[31.744478] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv\n'}
+[31.744866] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv\n'}
+[31.746319] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg\n'}
+[31.746666] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake\n'}
+[31.746945] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake\n'}
+[31.747392] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml\n'}
+[31.753156] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[31.804831] (-) TimerEvent: {}
+[31.905544] (-) TimerEvent: {}
+[32.007047] (-) TimerEvent: {}
+[32.012633] (my_first_ros_rclcpp_pkg) JobEnded: {'identifier': 'my_first_ros_rclcpp_pkg', 'rc': 0}
+[32.107157] (-) TimerEvent: {}
+[32.207691] (-) TimerEvent: {}
+[32.308626] (-) TimerEvent: {}
+[32.409108] (-) TimerEvent: {}
+[32.509420] (-) TimerEvent: {}
+[32.609717] (-) TimerEvent: {}
+[32.710037] (-) TimerEvent: {}
+[32.810348] (-) TimerEvent: {}
+[32.910679] (-) TimerEvent: {}
+[33.011036] (-) TimerEvent: {}
+[33.111348] (-) TimerEvent: {}
+[33.211692] (-) TimerEvent: {}
+[33.311999] (-) TimerEvent: {}
+[33.412293] (-) TimerEvent: {}
+[33.512607] (-) TimerEvent: {}
+[33.612955] (-) TimerEvent: {}
+[33.713284] (-) TimerEvent: {}
+[33.813599] (-) TimerEvent: {}
+[33.913909] (-) TimerEvent: {}
+[34.014215] (-) TimerEvent: {}
+[34.114503] (-) TimerEvent: {}
+[34.214795] (-) TimerEvent: {}
+[34.315095] (-) TimerEvent: {}
+[34.415392] (-) TimerEvent: {}
+[34.515719] (-) TimerEvent: {}
+[34.616038] (-) TimerEvent: {}
+[34.716361] (-) TimerEvent: {}
+[34.816682] (-) TimerEvent: {}
+[34.916978] (-) TimerEvent: {}
+[35.017312] (-) TimerEvent: {}
+[35.117633] (-) TimerEvent: {}
+[35.217963] (-) TimerEvent: {}
+[35.318293] (-) TimerEvent: {}
+[35.418623] (-) TimerEvent: {}
+[35.518936] (-) TimerEvent: {}
+[35.612782] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable packet_RS485_publisher\x1b[0m\n'}
+[35.619042] (-) TimerEvent: {}
+[35.719360] (-) TimerEvent: {}
+[35.819700] (-) TimerEvent: {}
+[35.919708] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 37%] Built target packet_RS485_publisher\n'}
+[35.919910] (-) TimerEvent: {}
+[35.971978] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/packet_RS485_subscriber.dir/src/packet_RS485_subscriber.cpp.o\x1b[0m\n'}
+[36.020027] (-) TimerEvent: {}
+[36.120356] (-) TimerEvent: {}
+[36.220690] (-) TimerEvent: {}
+[36.321031] (-) TimerEvent: {}
+[36.421376] (-) TimerEvent: {}
+[36.521718] (-) TimerEvent: {}
+[36.622054] (-) TimerEvent: {}
+[36.722858] (-) TimerEvent: {}
+[36.823190] (-) TimerEvent: {}
+[36.923564] (-) TimerEvent: {}
+[37.024023] (-) TimerEvent: {}
+[37.124475] (-) TimerEvent: {}
+[37.224809] (-) TimerEvent: {}
+[37.325139] (-) TimerEvent: {}
+[37.425468] (-) TimerEvent: {}
+[37.525796] (-) TimerEvent: {}
+[37.626091] (-) TimerEvent: {}
+[37.726395] (-) TimerEvent: {}
+[37.826716] (-) TimerEvent: {}
+[37.927017] (-) TimerEvent: {}
+[38.027325] (-) TimerEvent: {}
+[38.127640] (-) TimerEvent: {}
+[38.227974] (-) TimerEvent: {}
+[38.328312] (-) TimerEvent: {}
+[38.428634] (-) TimerEvent: {}
+[38.528959] (-) TimerEvent: {}
+[38.629273] (-) TimerEvent: {}
+[38.729600] (-) TimerEvent: {}
+[38.829897] (-) TimerEvent: {}
+[38.930209] (-) TimerEvent: {}
+[38.953229] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/robot_ws/src/safeway_robot_controll_packet_RS485/src/packet_RS485_subscriber.cpp:36:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[38.953460] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'   36 | static char *pszDevName = \x1b[01;35m\x1b[K"/dev/ttyUSB0"\x1b[m\x1b[K;\n'}
+[38.953555] (safeway_robot_controll_packet_RS485) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[39.030312] (-) TimerEvent: {}
+[39.130622] (-) TimerEvent: {}
+[39.230931] (-) TimerEvent: {}
+[39.331298] (-) TimerEvent: {}
+[39.431649] (-) TimerEvent: {}
+[39.531961] (-) TimerEvent: {}
+[39.632308] (-) TimerEvent: {}
+[39.732609] (-) TimerEvent: {}
+[39.832942] (-) TimerEvent: {}
+[39.933254] (-) TimerEvent: {}
+[40.033556] (-) TimerEvent: {}
+[40.133858] (-) TimerEvent: {}
+[40.234175] (-) TimerEvent: {}
+[40.334542] (-) TimerEvent: {}
+[40.434843] (-) TimerEvent: {}
+[40.535175] (-) TimerEvent: {}
+[40.635525] (-) TimerEvent: {}
+[40.735873] (-) TimerEvent: {}
+[40.836214] (-) TimerEvent: {}
+[40.936563] (-) TimerEvent: {}
+[41.036897] (-) TimerEvent: {}
+[41.137152] (-) TimerEvent: {}
+[41.237452] (-) TimerEvent: {}
+[41.337752] (-) TimerEvent: {}
+[41.438087] (-) TimerEvent: {}
+[41.538387] (-) TimerEvent: {}
+[41.638727] (-) TimerEvent: {}
+[41.739081] (-) TimerEvent: {}
+[41.839436] (-) TimerEvent: {}
+[41.939755] (-) TimerEvent: {}
+[42.040077] (-) TimerEvent: {}
+[42.140423] (-) TimerEvent: {}
+[42.240808] (-) TimerEvent: {}
+[42.341133] (-) TimerEvent: {}
+[42.441616] (-) TimerEvent: {}
+[42.541951] (-) TimerEvent: {}
+[42.642387] (-) TimerEvent: {}
+[42.742734] (-) TimerEvent: {}
+[42.843128] (-) TimerEvent: {}
+[42.943434] (-) TimerEvent: {}
+[43.043748] (-) TimerEvent: {}
+[43.144045] (-) TimerEvent: {}
+[43.244346] (-) TimerEvent: {}
+[43.344665] (-) TimerEvent: {}
+[43.444965] (-) TimerEvent: {}
+[43.545266] (-) TimerEvent: {}
+[43.645562] (-) TimerEvent: {}
+[43.745850] (-) TimerEvent: {}
+[43.846178] (-) TimerEvent: {}
+[43.946469] (-) TimerEvent: {}
+[44.046761] (-) TimerEvent: {}
+[44.147048] (-) TimerEvent: {}
+[44.247368] (-) TimerEvent: {}
+[44.347688] (-) TimerEvent: {}
+[44.447981] (-) TimerEvent: {}
+[44.548302] (-) TimerEvent: {}
+[44.648604] (-) TimerEvent: {}
+[44.748930] (-) TimerEvent: {}
+[44.849254] (-) TimerEvent: {}
+[44.949571] (-) TimerEvent: {}
+[45.049871] (-) TimerEvent: {}
+[45.150165] (-) TimerEvent: {}
+[45.250485] (-) TimerEvent: {}
+[45.350773] (-) TimerEvent: {}
+[45.451097] (-) TimerEvent: {}
+[45.551423] (-) TimerEvent: {}
+[45.651744] (-) TimerEvent: {}
+[45.752061] (-) TimerEvent: {}
+[45.852355] (-) TimerEvent: {}
+[45.952638] (-) TimerEvent: {}
+[46.052950] (-) TimerEvent: {}
+[46.153287] (-) TimerEvent: {}
+[46.253577] (-) TimerEvent: {}
+[46.353866] (-) TimerEvent: {}
+[46.454151] (-) TimerEvent: {}
+[46.554452] (-) TimerEvent: {}
+[46.654803] (-) TimerEvent: {}
+[46.755122] (-) TimerEvent: {}
+[46.842404] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable packet_RS485_subscriber\x1b[0m\n'}
+[46.855217] (-) TimerEvent: {}
+[46.955591] (-) TimerEvent: {}
+[47.055951] (-) TimerEvent: {}
+[47.156283] (-) TimerEvent: {}
+[47.256622] (-) TimerEvent: {}
+[47.356959] (-) TimerEvent: {}
+[47.380435] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'[100%] Built target packet_RS485_subscriber\n'}
+[47.392768] (safeway_robot_controll_packet_RS485) CommandEnded: {'returncode': 0}
+[47.437349] (safeway_robot_controll_packet_RS485) JobProgress: {'identifier': 'safeway_robot_controll_packet_RS485', 'progress': 'install'}
+[47.437687] (safeway_robot_controll_packet_RS485) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485'], 'cwd': '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('ROS_NAMESPACE', 'robot1'), ('GIO_MODULE_DIR', '/home/robot/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '0'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.86.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/150/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/robot/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/150/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/150/usr/share/code/code'), ('MANAGERPID', '1304'), ('SYSTEMD_EXEC_PID', '1522'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2975'), ('_colcon_cd_root', '/home/robot/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31021'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.local/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1496,unix/robot:/tmp/.ICE-unix/1496'), ('GTK_EXE_PREFIX', '/snap/code/150/usr'), ('INVOCATION_ID', 'e66eb19a21d24c7180523ee80468377d'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/150/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2MFSI2'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfc9936bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/robot/snap/code/150/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/robot/robot_ws/install/urdf_tutorial:/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/robot/robot_ws/build/safeway_robot_controll_packet_RS485'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/home/robot/snap/code/150/.local/share:/home/robot/snap/code/150:/snap/code/150/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/robot_ws/install/urdf_tutorial/lib/python3.10/site-packages:/home/robot/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver_udp:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble')]), 'shell': False}
+[47.446999] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[47.448045] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_publisher\n'}
+[47.451892] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_publisher" to ""\n'}
+[47.452687] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_subscriber\n'}
+[47.457067] (-) TimerEvent: {}
+[47.467215] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/lib/safeway_robot_controll_packet_RS485/packet_RS485_subscriber" to ""\n'}
+[47.467573] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/package_run_dependencies/safeway_robot_controll_packet_RS485\n'}
+[47.467853] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/parent_prefix_path/safeway_robot_controll_packet_RS485\n'}
+[47.468157] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/ament_prefix_path.sh\n'}
+[47.468429] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/ament_prefix_path.dsv\n'}
+[47.468733] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/path.sh\n'}
+[47.468991] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/environment/path.dsv\n'}
+[47.469283] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.bash\n'}
+[47.469541] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.sh\n'}
+[47.469790] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.zsh\n'}
+[47.470033] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/local_setup.dsv\n'}
+[47.470286] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.dsv\n'}
+[47.470831] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/ament_index/resource_index/packages/safeway_robot_controll_packet_RS485\n'}
+[47.471027] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/cmake/safeway_robot_controll_packet_RS485Config.cmake\n'}
+[47.471159] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/cmake/safeway_robot_controll_packet_RS485Config-version.cmake\n'}
+[47.471255] (safeway_robot_controll_packet_RS485) StdoutLine: {'line': b'-- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_RS485/share/safeway_robot_controll_packet_RS485/package.xml\n'}
+[47.472799] (safeway_robot_controll_packet_RS485) CommandEnded: {'returncode': 0}
+[47.557144] (-) TimerEvent: {}
+[47.657454] (-) TimerEvent: {}
+[47.671849] (safeway_robot_controll_packet_RS485) JobEnded: {'identifier': 'safeway_robot_controll_packet_RS485', 'rc': 0}
+[47.672666] (-) EventReactorShutdown: {}

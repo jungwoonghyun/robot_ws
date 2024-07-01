@@ -1,0 +1,250 @@
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found message_interface: 0.0.0 (/home/robot/robot_ws/install/message_interface/share/message_interface/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/robot_ws/build/safeway_robot_controll_packet_rs485
+[35m[1mConsolidate compiler generated dependencies of target packet_uwb_dwm1001_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target packet_rs485_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target packet_rs485_publisher[0m
+[  4%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber.dir/src/rs485_comm.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target packet_tf2_tracing[0m
+[ 18%] Built target packet_uwb_dwm1001_publisher
+[ 27%] Built target packet_tf2_tracing
+[ 40%] Built target packet_rs485_publisher
+[35m[1mConsolidate compiler generated dependencies of target esp32_controller[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber.dir/src/rs485_send.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber.dir/src/rs485_crc16.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber_wagon.dir/src/packet_rs485_subscriber_wagon.cpp.o[0m
+[ 68%] Built target esp32_controller
+[ 72%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber_wagon.dir/src/rs485_comm.cpp.o[0m
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_send.cpp:10:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks_szCmdRBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   10 | static char [01;35m[Ks_szCmdRBuffer[m[K[MOTION_CMD_BUFFER_SIZE];
+      |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 77%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber_wagon.dir/src/rs485_recv.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable packet_rs485_subscriber[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber_wagon.dir/src/rs485_send.cpp.o[0m
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_send.cpp:10:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks_szCmdRBuffer[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   10 | static char [01;35m[Ks_szCmdRBuffer[m[K[MOTION_CMD_BUFFER_SIZE];
+      |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:36:1:[m[K [01;31m[Kerror: [m[K‘[01m[KROBOT_INFO[m[K’ does not name a type
+   36 | [01;31m[KROBOT_INFO[m[K g_RobotInfo;
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:37:1:[m[K [01;31m[Kerror: [m[K‘[01m[KROBOT_STATE[m[K’ does not name a type
+   37 | [01;31m[KROBOT_STATE[m[K g_RobotState[ROBOT_AXES_COUNT];
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:87:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMOTION_STAGE[m[K’ does not name a type
+   87 | [01;31m[KMOTION_STAGE[m[K parse_motion_stage(const char* pMotionStage, int nLen)
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:100:35:[m[K [01;31m[Kerror: [m[K‘[01m[KMOTION_STAGE[m[K’ was not declared in this scope
+  100 | const char* get_motion_stage_name([01;31m[KMOTION_STAGE[m[K motionStage)
+      |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:111:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSTOP_REASON[m[K’ does not name a type
+  111 | [01;31m[KSTOP_REASON[m[K parse_stop_reason(const char* pStopReason, int nLen)
+      | [01;31m[K^~~~~~~~~~~[m[K
+[ 90%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber_wagon.dir/src/rs485_crc16.cpp.o[0m
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:[m[K In function ‘[01m[Kint parse_reply_command(const char*, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:142:65:[m[K [01;31m[Kerror: [m[K‘[01m[KCMD_MNEMONIC_DELIMITER[m[K’ was not declared in this scope
+  142 |     const char* pMnemonicDelimiter = (const char *)memchr(pCmd, [01;31m[KCMD_MNEMONIC_DELIMITER[m[K, nCmdLen);
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:149:30:[m[K [01;31m[Kerror: [m[K‘[01m[KMCMD_strnicmp[m[K’ was not declared in this scope
+  149 |     if (nMnemonicLen <= 0 || [01;31m[KMCMD_strnicmp[m[K(pCmd, "REPLY", nMnemonicLen) != 0)
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:34:38:[m[K [01;31m[Kerror: [m[K‘[01m[KROBOT_AXES_COUNT[m[K’ was not declared in this scope
+   34 | #define REPLY_CMD_ARG_COUNT (3 + 4 + [01;31m[KROBOT_AXES_COUNT[m[K*6 + 3)
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:158:25:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KREPLY_CMD_ARG_COUNT[m[K’
+  158 |     const char* rgpArgs[[01;36m[KREPLY_CMD_ARG_COUNT[m[K] = { NULL };    // needless but 'lnt-uninitialized-local' rule
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:165:18:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  165 |     register int [01;35m[KiArg[m[K;
+      |                  [01;35m[K^~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:170:55:[m[K [01;31m[Kerror: [m[K‘[01m[KrgpArgs[m[K’ was not declared in this scope
+  170 |     for (iArg = 0; nArgRemainLen > 0 && iArg < sizeof([01;31m[KrgpArgs[m[K)/sizeof(rgpArgs[0]); iArg++)
+      |                                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:173:60:[m[K [01;31m[Kerror: [m[K‘[01m[KCMD_ARG_DELIMITER[m[K’ was not declared in this scope
+  173 |         pszArgDelimiter = (const char *)memchr(pszNextArg, [01;31m[KCMD_ARG_DELIMITER[m[K, nArgRemainLen);
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:179:13:[m[K [01;31m[Kerror: [m[K‘[01m[KrgnArgLens[m[K’ was not declared in this scope
+  179 |             [01;31m[KrgnArgLens[m[K[iArg] = nArgRemainLen;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:187:9:[m[K [01;31m[Kerror: [m[K‘[01m[KrgnArgLens[m[K’ was not declared in this scope
+  187 |         [01;31m[KrgnArgLens[m[K[iArg] = (int)(pszArgDelimiter - pszNextArg);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:208:22:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_NONE[m[K’ was not declared in this scope
+  208 |     int replyFlags = [01;31m[KREPLY_NONE[m[K;
+      |                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:210:16:[m[K [01;31m[Kerror: [m[K‘[01m[KrgpArgs[m[K’ was not declared in this scope
+  210 |     if (memchr([01;31m[KrgpArgs[m[K[0], 'B', rgnArgLens[0]))
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:210:33:[m[K [01;31m[Kerror: [m[K‘[01m[KrgnArgLens[m[K’ was not declared in this scope
+  210 |     if (memchr(rgpArgs[0], 'B', [01;31m[KrgnArgLens[m[K[0]))
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:212:23:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_BASIC[m[K’ was not declared in this scope
+  212 |         replyFlags |= [01;31m[KREPLY_BASIC[m[K;
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:215:16:[m[K [01;31m[Kerror: [m[K‘[01m[KrgpArgs[m[K’ was not declared in this scope
+  215 |     if (memchr([01;31m[KrgpArgs[m[K[0], 'R', rgnArgLens[0]))
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:215:33:[m[K [01;31m[Kerror: [m[K‘[01m[KrgnArgLens[m[K’ was not declared in this scope
+  215 |     if (memchr(rgpArgs[0], 'R', [01;31m[KrgnArgLens[m[K[0]))
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:217:23:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_STOP_REASON[m[K’ was not declared in this scope
+  217 |         replyFlags |= [01;31m[KREPLY_STOP_REASON[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:220:16:[m[K [01;31m[Kerror: [m[K‘[01m[KrgpArgs[m[K’ was not declared in this scope
+  220 |     if (memchr([01;31m[KrgpArgs[m[K[0], 'T', rgnArgLens[0]))
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:220:33:[m[K [01;31m[Kerror: [m[K‘[01m[KrgnArgLens[m[K’ was not declared in this scope
+  220 |     if (memchr(rgpArgs[0], 'T', [01;31m[KrgnArgLens[m[K[0]))
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:222:23:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_TORQUE[m[K’ was not declared in this scope
+  222 |         replyFlags |= [01;31m[KREPLY_TORQUE[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:225:16:[m[K [01;31m[Kerror: [m[K‘[01m[KrgpArgs[m[K’ was not declared in this scope
+  225 |     if (memchr([01;31m[KrgpArgs[m[K[0], 'U', rgnArgLens[0]))
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:225:33:[m[K [01;31m[Kerror: [m[K‘[01m[KrgnArgLens[m[K’ was not declared in this scope
+  225 |     if (memchr(rgpArgs[0], 'U', [01;31m[KrgnArgLens[m[K[0]))
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:227:23:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_UMODE[m[K’ was not declared in this scope
+  227 |         replyFlags |= [01;31m[KREPLY_UMODE[m[K;
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:231:23:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_BASIC[m[K’ was not declared in this scope
+  231 |     if ((replyFlags & [01;31m[KREPLY_BASIC[m[K) == 0)
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:240:22:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_STOP_REASON[m[K’ was not declared in this scope
+  240 |     if (replyFlags & [01;31m[KREPLY_STOP_REASON[m[K)
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:246:22:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_TORQUE[m[K’ was not declared in this scope
+  246 |     if (replyFlags & [01;31m[KREPLY_TORQUE[m[K)
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:255:34:[m[K [01;31m[Kerror: [m[K‘[01m[KrgpArgs[m[K’ was not declared in this scope
+  255 |     int nCmdResult = (int)strtol([01;31m[KrgpArgs[m[K[1], &pEndStr, 0);
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:270:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_RobotInfo[m[K’ was not declared in this scope
+  270 |         [01;31m[Kg_RobotInfo[m[K.nPolePair = (int)strtol(rgpArgs[3], &pEndStr, 0);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:286:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_RobotState[m[K’ was not declared in this scope
+  286 |                 [01;31m[Kg_RobotState[m[K[iAxis].nPosition = strtoll(rgpArgs[nArgPos + 0], &pEndStr, 0);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:292:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_RobotState[m[K’ was not declared in this scope
+  292 |                 [01;31m[Kg_RobotState[m[K[iAxis].nDistance = strtoull(rgpArgs[nArgPos + 1], &pEndStr, 0);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:298:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_RobotState[m[K’ was not declared in this scope
+  298 |                 [01;31m[Kg_RobotState[m[K[iAxis].dbSpeed = strtod(rgpArgs[nArgPos + 2], &pEndStr);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:305:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_RobotState[m[K’ was not declared in this scope
+  305 |                 [01;31m[Kg_RobotState[m[K[iAxis].motionStage = parse_motion_stage(rgpArgs[nArgPos + 3], rgnArgLens[nArgPos + 3]);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:305:92:[m[K [01;31m[Kerror: [m[K‘[01m[KrgnArgLens[m[K’ was not declared in this scope
+  305 |                 g_RobotState[iAxis].motionStage = parse_motion_stage(rgpArgs[nArgPos + 3], [01;31m[KrgnArgLens[m[K[nArgPos + 3]);
+      |                                                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:305:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kparse_motion_stage[m[K’ was not declared in this scope
+  305 |                 g_RobotState[iAxis].motionStage = [01;31m[Kparse_motion_stage[m[K(rgpArgs[nArgPos + 3], rgnArgLens[nArgPos + 3]);
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:309:17:[m[K [01;31m[Kerror: [m[K‘[01m[KMOTION_STAGE[m[K’ was not declared in this scope
+  309 |                 [01;31m[KMOTION_STAGE[m[K stageOld = g_RobotState[iAxis].motionStage;
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:312:21:[m[K [01;31m[Kerror: [m[K‘[01m[KstageOld[m[K’ was not declared in this scope
+  312 |                 if ([01;31m[KstageOld[m[K == MOTION_STAGE_UNKNOWN && g_RobotState[iAxis].motionStage != MOTION_STAGE_UNKNOWN)
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:312:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMOTION_STAGE_UNKNOWN[m[K’ was not declared in this scope
+  312 |                 if (stageOld == [01;31m[KMOTION_STAGE_UNKNOWN[m[K && g_RobotState[iAxis].motionStage != MOTION_STAGE_UNKNOWN)
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:316:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_motion_stage_name[m[K’ cannot be used as a function
+  316 |                            get_motion_stage_name(g_RobotState[iAxis].motionStage[01;31m[K)[m[K);
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:322:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_motion_stage_name[m[K’ cannot be used as a function
+  322 |                            [01;31m[Kget_motion_stage_name(stageOld)[m[K,
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:323:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_motion_stage_name[m[K’ cannot be used as a function
+  323 |                            get_motion_stage_name(g_RobotState[iAxis].motionStage[01;31m[K)[m[K);
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:332:31:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_STOP_REASON[m[K’ was not declared in this scope
+  332 |             if ((replyFlags & [01;31m[KREPLY_STOP_REASON[m[K) && (nArgCount > nArgPos + nAxisArgPos))
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:334:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_RobotState[m[K’ was not declared in this scope
+  334 |                 [01;31m[Kg_RobotState[m[K[iAxis].stopReason = parse_stop_reason(rgpArgs[nArgPos + nAxisArgPos], rgnArgLens[nArgPos + nAxisArgPos]);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:334:100:[m[K [01;31m[Kerror: [m[K‘[01m[KrgnArgLens[m[K’ was not declared in this scope
+  334 |                 g_RobotState[iAxis].stopReason = parse_stop_reason(rgpArgs[nArgPos + nAxisArgPos], [01;31m[KrgnArgLens[m[K[nArgPos + nAxisArgPos]);
+      |                                                                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:334:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kparse_stop_reason[m[K’ was not declared in this scope
+  334 |                 g_RobotState[iAxis].stopReason = [01;31m[Kparse_stop_reason[m[K(rgpArgs[nArgPos + nAxisArgPos], rgnArgLens[nArgPos + nAxisArgPos]);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:339:31:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_TORQUE[m[K’ was not declared in this scope
+  339 |             if ((replyFlags & [01;31m[KREPLY_TORQUE[m[K) && (nArgCount > nArgPos + nAxisArgPos))
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:341:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_RobotState[m[K’ was not declared in this scope
+  341 |                 [01;31m[Kg_RobotState[m[K[iAxis].dbTorque = strtod(rgpArgs[nArgPos + nAxisArgPos], 0);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:353:27:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_UMODE[m[K’ was not declared in this scope
+  353 |         if ((replyFlags & [01;31m[KREPLY_UMODE[m[K) && (nArgCount > nArgPos))
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:359:27:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_UMODE[m[K’ was not declared in this scope
+  359 |         if ((replyFlags & [01;31m[KREPLY_UMODE[m[K) && (nArgCount > nArgPos))
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:365:27:[m[K [01;31m[Kerror: [m[K‘[01m[KREPLY_UMODE[m[K’ was not declared in this scope
+  365 |         if ((replyFlags & [01;31m[KREPLY_UMODE[m[K) && (nArgCount > nArgPos))
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:264:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnAxesCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  264 |     const int [01;35m[KnAxesCount[m[K = (int)strtol(rgpArgs[2], &pEndStr, 0);
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:[m[K In function ‘[01m[Kint parse_recv_packet(const void*, int)[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:575:56:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K+[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  575 |     unsigned nCrc16Recv = [01;35m[K((unsigned)p[nRecvSize - 3]) + (((unsigned)p[nRecvSize - 2]) << 8)[m[K & 0xffff;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:[m[K At global scope:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:71:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks_rgpszMotionStopReasonNames[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   71 | static const char* [01;35m[Ks_rgpszMotionStopReasonNames[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/rs485_recv.cpp:44:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks_rgpszMotionStageNames[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 | static const char* [01;35m[Ks_rgpszMotionStageNames[m[K[] =
+      |                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/packet_rs485_subscriber_wagon.dir/build.make:104: CMakeFiles/packet_rs485_subscriber_wagon.dir/src/rs485_recv.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 95%] Built target packet_rs485_subscriber
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber_wagon.cpp:45:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   45 | static char *pszDevName = [01;35m[K"/dev/ttySerial"[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber_wagon.cpp:[m[K In member function ‘[01m[Kvoid PacketRS485SubscriberWagon::mode_msg()[m[K’:
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber_wagon.cpp:140:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krecv_comm_dev[m[K’ was not declared in this scope; did you mean ‘[01m[Ksend_comm_dev[m[K’?
+  140 |     nBytesRead = [01;31m[Krecv_comm_dev[m[K(hComm, s_szCmdRBuffer + nBytesCached, sizeof(s_szCmdRBuffer));
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+      |                  [32m[Ksend_comm_dev[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber_wagon.cpp:151:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kparse_recv_packet[m[K’ was not declared in this scope
+  151 |       int nResult = [01;31m[Kparse_recv_packet[m[K(s_szCmdRBuffer, nBytesRead + nBytesCached);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber_wagon.cpp:169:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdump_recv_packet[m[K’ was not declared in this scope
+  169 |             [01;31m[Kdump_recv_packet[m[K(s_szCmdRBuffer, nBytesRead);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber_wagon.cpp:182:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_RobotInfo[m[K’ was not declared in this scope
+  182 |     [01;31m[Kg_RobotInfo[m[K.nUserModeValue1, g_RobotInfo.nUserModeValue2, g_RobotInfo.nUserModeValue3);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/packet_rs485_subscriber_wagon.dir/build.make:76: CMakeFiles/packet_rs485_subscriber_wagon.dir/src/packet_rs485_subscriber_wagon.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/packet_rs485_subscriber_wagon.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

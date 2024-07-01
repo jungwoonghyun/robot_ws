@@ -1,0 +1,1 @@
+/home/robot/robot_ws/build/clustering_cpp/ament_cmake_environment_hooks/local_setup.sh

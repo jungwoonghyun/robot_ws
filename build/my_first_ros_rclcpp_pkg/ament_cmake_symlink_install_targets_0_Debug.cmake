@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg/helloworld_publisher" "/home/robot/robot_ws/build/my_first_ros_rclcpp_pkg/helloworld_subscriber" "TARGETS" "helloworld_publisher" "helloworld_subscriber" "DESTINATION" "lib/my_first_ros_rclcpp_pkg")

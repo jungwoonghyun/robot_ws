@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robot/robot_ws/build/nav2_test_utils/nav2_client_util" "/home/robot/robot_ws/build/nav2_test_utils/clicked_point_to_pose" "TARGETS" "nav2_client_util" "clicked_point_to_pose" "RUNTIME_DESTINATION" "lib/nav2_test_utils")
