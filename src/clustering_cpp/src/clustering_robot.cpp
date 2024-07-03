@@ -82,6 +82,8 @@ class clusteringNode : public rclcpp::Node
         int g_target_lost = 0, g_target_detect = 0;
         bool remote_controller=false;
         double prev_target_distance = 0, prev_target_angle = 0;
+        
+        double past_x = 0, past_y = 0, x_difference, y_difference; // for data
 
     private:
 
@@ -195,7 +197,7 @@ void clusteringNode::timer_callback()
         target_id = targetDetect(target_obj_info_vector); // target_id = -1 detect failed
         remote_controller = true;
 
-        std::cout << "remote_controller:" << remote_controller << "id" << target_id << std::endl;
+        // std::cout << "remote_controller:" << remote_controller << "id" << target_id << std::endl;
     }
     else
     {
@@ -211,7 +213,7 @@ void clusteringNode::timer_callback()
             g_target_lost = 0;
             g_target_detect = 0;
             status = 0;
-            std::cout << "stop\n";
+            // std::cout << "stop\n";
         }
         else if(target_id != -1 )
         {
@@ -223,7 +225,7 @@ void clusteringNode::timer_callback()
                 roi_center_x = 0.5;
                 roi_center_y = 0;
                 status = 0;
-                std::cout << "lost\n";
+                // std::cout << "lost\n";
             }
             else
             {
@@ -247,7 +249,7 @@ void clusteringNode::timer_callback()
 
                 g_target_detect = 1;
                 status = 1;
-                std::cout << "move\n";
+                // std::cout << "move\n";
             }
             // std::cout << "width height " << target_obj_info_vector[target_id].width << ", " << target_obj_info_vector[target_id].height << "\n";
         }
@@ -267,7 +269,7 @@ void clusteringNode::timer_callback()
             {
                 g_target_lost = 1;
                 status = 0;
-                std::cout << "lost\n";
+                // std::cout << "lost\n";
             }
             else
             {
@@ -296,6 +298,17 @@ void clusteringNode::timer_callback()
         {
             linear_ = linear_;
             angular_ = angular_;
+
+            if(target_id != -1 && g_target_lost != 1 && linear_ > 0 && abs(angular_) > M_PI/72)
+            {
+                x_difference = abs(target_obj_info_vector[target_id].position[0] - past_x);
+                y_difference = abs(target_obj_info_vector[target_id].position[1] - past_y);
+
+                past_x = target_obj_info_vector[target_id].position[0];
+                past_y = target_obj_info_vector[target_id].position[1];
+
+                std::cout << "x difference, " << x_difference << " ,y difference, " << y_difference << std::endl;
+            }
         }
 
         twist.angular.z = angular_;
