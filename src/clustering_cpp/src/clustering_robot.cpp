@@ -83,7 +83,9 @@ class clusteringNode : public rclcpp::Node
         bool remote_controller=false;
         double prev_target_distance = 0, prev_target_angle = 0;
         
-        double past_x = 0, past_y = 0, x_difference, y_difference; // for data
+        double past_x = 0, past_y = 0, past_leftbot_x = 0, past_leftbot_y = 0, past_rightbot_x = 0, past_rightbot_y = 0, past_lefttop_x = 0, past_lefttop_y = 0, past_righttop_x = 0, past_righttop_y = 0; // for data
+        double x_difference, y_difference, leftbot_diff_x, leftbot_diff_y, rightbot_diff_x, rightbot_diff_y, lefttop_diff_x, lefttop_diff_y, righttop_diff_x, righttop_diff_y; // for data
+        double past_width = 0, past_height = 0, width_diff, height_diff; // for data
 
     private:
 
@@ -299,15 +301,35 @@ void clusteringNode::timer_callback()
             linear_ = linear_;
             angular_ = angular_;
 
-            if(target_id != -1 && g_target_lost != 1 && linear_ > 0 && abs(angular_) > M_PI/72)
+            if(target_id != -1 && g_target_lost != 1 && linear_ > 0 && abs(angular_) >= M_PI/72) // data printing part
             {
                 x_difference = abs(target_obj_info_vector[target_id].position[0] - past_x);
                 y_difference = abs(target_obj_info_vector[target_id].position[1] - past_y);
+                leftbot_diff_x = abs(target_obj_info_vector[target_id].leftbottom[0] - past_leftbot_x);
+                leftbot_diff_y = abs(target_obj_info_vector[target_id].leftbottom[1] - past_leftbot_y);
+                lefttop_diff_x = abs(target_obj_info_vector[target_id].leftbottom[0] - past_lefttop_x);
+                lefttop_diff_y = abs(target_obj_info_vector[target_id].righttop[1] - past_lefttop_y);
+                rightbot_diff_x = abs(target_obj_info_vector[target_id].righttop[0] - past_rightbot_x);
+                rightbot_diff_y = abs(target_obj_info_vector[target_id].leftbottom[1] - past_rightbot_y);
+                righttop_diff_x = abs(target_obj_info_vector[target_id].righttop[0] - past_righttop_x);
+                righttop_diff_y = abs(target_obj_info_vector[target_id].righttop[1] - past_righttop_y);
+                width_diff = abs(target_obj_info_vector[target_id].width - past_width);
+                height_diff = abs(target_obj_info_vector[target_id].height - past_height);
 
                 past_x = target_obj_info_vector[target_id].position[0];
                 past_y = target_obj_info_vector[target_id].position[1];
+                past_leftbot_x = target_obj_info_vector[target_id].leftbottom[0];
+                past_leftbot_y = target_obj_info_vector[target_id].leftbottom[1];
+                past_lefttop_x = target_obj_info_vector[target_id].leftbottom[0];
+                past_lefttop_y = target_obj_info_vector[target_id].righttop[1];
+                past_rightbot_x = target_obj_info_vector[target_id].righttop[0];
+                past_rightbot_y = target_obj_info_vector[target_id].leftbottom[1];
+                past_righttop_x = target_obj_info_vector[target_id].righttop[0];
+                past_righttop_y = target_obj_info_vector[target_id].righttop[1];
+                past_width = target_obj_info_vector[target_id].width;
+                past_height = target_obj_info_vector[target_id].height;
 
-                std::cout << "x difference, " << x_difference << " ,y difference, " << y_difference << std::endl;
+                std::cout << "x difference ," << x_difference << ", y difference , " << y_difference << ", width diff ," << width_diff << ", height diff ," << height_diff << std::endl;
             }
         }
 
@@ -388,7 +410,7 @@ void clusteringNode::filteredEuclideanClustering(std::vector<ObjInfo>& info)
     std::vector<pcl::PointIndices> cluster_indices;
     pcl::EuclideanClusterExtraction<pcl::PointXYZ> ec;
 
-    ec.setClusterTolerance (0.2);
+    ec.setClusterTolerance (0.5);
     ec.setMinClusterSize (2);
     ec.setMaxClusterSize (100);
     ec.setSearchMethod (tree);

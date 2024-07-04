@@ -1,0 +1,90 @@
+[0.044s] Invoking command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_rs485': CMAKE_PREFIX_PATH=/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/robot_ws/install/message_interface/lib:/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_rs485 -- -j4 -l4
+[0.103s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.318s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.426s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.467s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.470s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.478s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.585s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.587s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.734s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.942s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.000s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.010s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.443s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.785s] -- Found message_interface: 0.0.0 (/home/robot/robot_ws/install/message_interface/share/message_interface/cmake)
+[1.827s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.939s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.940s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.942s] -- Configured cppcheck include dirs: /home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/include
+[1.943s] -- Configured cppcheck exclude dirs and/or files: 
+[1.946s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.946s] -- Configured cpplint exclude dirs and/or files: 
+[1.948s] -- Added test 'lint_cmake' to check CMake code style
+[1.951s] -- Added test 'uncrustify' to check C / C++ code style
+[1.951s] -- Configured uncrustify additional arguments: 
+[1.952s] -- Added test 'xmllint' to check XML markup files
+[1.956s] -- Configuring done
+[2.044s] -- Generating done
+[2.057s] -- Build files have been written to: /home/robot/robot_ws/build/safeway_robot_controll_packet_rs485
+[2.099s] [35m[1mConsolidate compiler generated dependencies of target packet_rs485_publisher[0m
+[2.120s] [35m[1mConsolidate compiler generated dependencies of target packet_uwb_dwm1001_publisher[0m
+[2.139s] [35m[1mConsolidate compiler generated dependencies of target packet_rs485_subscriber[0m
+[2.152s] [35m[1mConsolidate compiler generated dependencies of target packet_tf2_tracing[0m
+[2.164s] [ 13%] Built target packet_rs485_publisher
+[2.218s] [ 27%] Built target packet_uwb_dwm1001_publisher
+[2.219s] [35m[1mConsolidate compiler generated dependencies of target esp32_controller[0m
+[2.230s] [ 31%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber.dir/src/packet_rs485_subscriber.cpp.o[0m
+[2.262s] [35m[1mConsolidate compiler generated dependencies of target packet_rs485_subscriber_wagon[0m
+[2.263s] [ 40%] Built target packet_tf2_tracing
+[2.320s] [ 45%] [32mBuilding CXX object CMakeFiles/packet_rs485_subscriber_wagon.dir/src/packet_rs485_subscriber_wagon.cpp.o[0m
+[2.322s] [ 50%] [32mBuilding CXX object CMakeFiles/esp32_controller.dir/src/packet_esp32_controller.cpp.o[0m
+[7.949s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber_wagon.cpp:45:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[7.949s]    45 | static char *pszDevName = [01;35m[K"/dev/ttySerial"[m[K;
+[7.949s]       |                           [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[11.365s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_esp32_controller.cpp:14:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[11.366s]    14 | static char * esp32Uart = [01;35m[K"/dev/ttyESP"[m[K;
+[11.367s]       |                           [01;35m[K^~~~~~~~~~~~~[m[K
+[14.744s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber.cpp:42:27:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[14.745s]    42 | static char *pszDevName = [01;35m[K"/dev/ttySerial"[m[K;
+[14.745s]       |                           [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[15.679s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber.cpp:[m[K In member function ‘[01m[Kvoid PacketRS485Subscriber::subscribe_topic_message(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[15.679s] [01m[K/home/robot/robot_ws/src/safeway_robot_controll_packet_rs485/src/packet_rs485_subscriber.cpp:147:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Know_tm[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[15.680s]   147 |     std::tm [01;35m[Know_tm[m[K = *std::localtime(&now_time_t);
+[15.680s]       |             [01;35m[K^~~~~~[m[K
+[39.698s] [ 54%] [32m[1mLinking CXX executable esp32_controller[0m
+[43.204s] [ 59%] Built target esp32_controller
+[48.332s] [ 63%] [32m[1mLinking CXX executable packet_rs485_subscriber_wagon[0m
+[49.278s] [ 68%] [32m[1mLinking CXX executable packet_rs485_subscriber[0m
+[50.471s] [ 81%] Built target packet_rs485_subscriber
+[51.013s] [100%] Built target packet_rs485_subscriber_wagon
+[51.067s] Invoked command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_rs485' returned '0': CMAKE_PREFIX_PATH=/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/robot_ws/install/message_interface/lib:/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robot/robot_ws/build/safeway_robot_controll_packet_rs485 -- -j4 -l4
+[51.354s] Invoking command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_rs485': CMAKE_PREFIX_PATH=/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/robot_ws/install/message_interface/lib:/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robot/robot_ws/build/safeway_robot_controll_packet_rs485
+[51.368s] -- Install configuration: "Debug"
+[51.369s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/packet_rs485_publisher
+[51.370s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/packet_rs485_subscriber
+[51.478s] -- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/packet_rs485_subscriber" to ""
+[51.478s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/packet_uwb_dwm1001_publisher
+[51.478s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/packet_tf2_tracing
+[51.478s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/esp32_controller
+[51.525s] -- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/esp32_controller" to ""
+[51.525s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/packet_rs485_subscriber_wagon
+[51.574s] -- Set runtime path of "/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/lib/safeway_robot_controll_packet_rs485/packet_rs485_subscriber_wagon" to ""
+[51.574s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/ament_index/resource_index/package_run_dependencies/safeway_robot_controll_packet_rs485
+[51.574s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/ament_index/resource_index/parent_prefix_path/safeway_robot_controll_packet_rs485
+[51.577s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/environment/ament_prefix_path.sh
+[51.577s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/environment/ament_prefix_path.dsv
+[51.578s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/environment/path.sh
+[51.578s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/environment/path.dsv
+[51.578s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/local_setup.bash
+[51.579s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/local_setup.sh
+[51.579s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/local_setup.zsh
+[51.579s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/local_setup.dsv
+[51.579s] -- Installing: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/package.dsv
+[51.579s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/ament_index/resource_index/packages/safeway_robot_controll_packet_rs485
+[51.579s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/cmake/safeway_robot_controll_packet_rs485Config.cmake
+[51.579s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/cmake/safeway_robot_controll_packet_rs485Config-version.cmake
+[51.580s] -- Up-to-date: /home/robot/robot_ws/install/safeway_robot_controll_packet_rs485/share/safeway_robot_controll_packet_rs485/package.xml
+[51.584s] Invoked command in '/home/robot/robot_ws/build/safeway_robot_controll_packet_rs485' returned '0': CMAKE_PREFIX_PATH=/home/robot/robot_ws/install/message_interface:/home/robot/robot_ws/install/ydlidar_sdk:/home/robot/robot_ws/install/slam_toolbox:/home/robot/robot_ws/install/safeway_robot_controll_packet_rs485:/home/robot/robot_ws/install/pointcloud_to_laserscan:/home/robot/robot_ws/install/onetouch_launch:/home/robot/robot_ws/install/nav2_test_utils:/home/robot/robot_ws/install/nav2_common:/home/robot/robot_ws/install/my_first_ros_rclcpp_pkg:/home/robot/robot_ws/install/clustering_cpp:/home/robot/robot_ws/install/ldlidar_stl_ros2:/home/robot/robot_ws/install/ld08_driver:/home/robot/robot_ws/install/gl_ros2_driver:/home/robot/robot_ws/install/car_odom:/home/robot/ydlidar_ros2_driver/install/ydlidar_ros2_driver:/home/robot/robot_ws/install/urdf_tutorial:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/robot_ws/install/message_interface/lib:/home/robot/robot_ws/install/slam_toolbox/lib:/home/robot/robot_ws/install/pointcloud_to_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robot/robot_ws/build/safeway_robot_controll_packet_rs485
