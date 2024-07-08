@@ -33,9 +33,10 @@
 
 using namespace std::chrono_literals;
 
-#define ROI_WIDTH                   0.4
-#define ROI_HEIGHT                  0.4
-#define ROI_RANGE                   0.4
+#define ROI_WIDTH                   0.3
+#define ROI_HEIGHT                  0.3
+#define ROI_RANGE                   0.3
+#define TARGET_EXCLUSIVE            0.5
 #define COLLISION_DISTANCE          0.5
 
 struct ObjInfo
@@ -139,8 +140,8 @@ void clusteringNode::msgCallback_lidar(const sensor_msgs::msg::LaserScan::Shared
         double lidar_x = range * cos(angle);
         double lidar_y = range * sin(angle);
 
-        if( sqrt(pow(roi_center_x - lidar_x, 2) + pow(roi_center_y - lidar_y, 2)) < ROI_HEIGHT
-        || sqrt(pow(roi_center_x - lidar_x, 2) + pow(roi_center_y - lidar_y, 2)) > ROI_HEIGHT + 0.3)
+        if( sqrt(pow(roi_center_x - lidar_x, 2) + pow(roi_center_y - lidar_y, 2)) < ROI_RANGE
+        || sqrt(pow(roi_center_x - lidar_x, 2) + pow(roi_center_y - lidar_y, 2)) > ROI_RANGE + TARGET_EXCLUSIVE)
             filtered_lidar_cloud->points.push_back(pcl::PointXYZ(lidar_x, lidar_y, 0.0));
 
         lidar_cloud->points.push_back(pcl::PointXYZ(lidar_x, lidar_y, 0.0));
@@ -411,7 +412,6 @@ void clusteringNode::filteredEuclideanClustering(std::vector<ObjInfo>& info)
         cluster_index++;
 
         info.push_back(filltered_clusterinfo);
-
     }
 }
 
@@ -469,16 +469,9 @@ void clusteringNode::euclideanClustering(std::vector<ObjInfo>& info)
         clusterinfo.height = max_point.x - min_point.x;
         clusterinfo.position[0] = (max_point.x + min_point.x)/2; 
         clusterinfo.position[1] = (max_point.y + min_point.y)/2; 
-        // clusterinfo.leftbottom
-        // clusterinfo.righttop
 
         cluster_index++;
-
-        // if(sqrt(pow(clusterinfo.position[0] - roi_center_x, 2) + pow(clusterinfo.position[1] - roi_center_y, 2)) < ROI_HEIGHT
-        // || sqrt(pow(clusterinfo.position[0] - roi_center_x, 2) + pow(clusterinfo.position[1] - roi_center_y, 2)) > ROI_HEIGHT + 0.4)
-        // {
-            info.push_back(clusterinfo);
-        // }
+        info.push_back(clusterinfo);
     }
 }
 
@@ -519,7 +512,7 @@ int clusteringNode::roiDetect(std::vector<ObjInfo> obj_info)
 
     for(size_t i = 0; i < obj_info.size(); i++)
     {
-        if( sqrt(pow(obj_info[i].position[0] - roi_center_x, 2) + pow(obj_info[i].position[1] - roi_center_y, 2)) < ROI_HEIGHT)
+        if( sqrt(pow(obj_info[i].position[0] - roi_center_x, 2) + pow(obj_info[i].position[1] - roi_center_y, 2)) < ROI_RANGE)
         {
             roi_center_x = obj_info[i].position[0];
             roi_center_y = obj_info[i].position[1];
