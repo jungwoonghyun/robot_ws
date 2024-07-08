@@ -233,9 +233,10 @@ void clusteringNode::timer_callback()
                 
                 linear_ = weight_linear*target_distance + (1 - weight_linear)*prev_target_distance - COLLISION_DISTANCE; 
                 angular_ = weight_angular*target_angle + (1 - weight_angular)*prev_target_angle;
-                if (linear_ < 0.0)
+                if (linear_ <= 0.0)
                 {
                     linear_ = 0.0;
+                    angular_ = 0.0;
                 }
 
                 if (abs(angular_) < M_PI/72)
@@ -243,7 +244,7 @@ void clusteringNode::timer_callback()
                     angular_ = 0.0;
                 }
 
-                prev_target_distance = 1.2 * linear_;
+                prev_target_distance = linear_;
                 prev_target_angle = angular_;
 
                 g_target_detect = 1;
