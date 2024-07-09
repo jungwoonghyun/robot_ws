@@ -81,7 +81,7 @@ rosidl_typesupport_fastrtps_c/message_interface/msg/detail/mode__rosidl_typesupp
 rosidl_typesupport_fastrtps_c/message_interface/msg/detail/mode__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/message_interface/msg/Iscoast.idl
 rosidl_typesupport_fastrtps_c/message_interface/msg/detail/mode__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/message_interface/msg/State.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/robot/robot_ws/build/message_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
-	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/robot/robot_ws/build/message_interface/rosidl_typesupport_fastrtps_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/robot/robot_ws/build/message_interface/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/message_interface/msg/detail/mode__type_support_c.cpp: rosidl_typesupport_fastrtps_c/message_interface/msg/detail/mode__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/message_interface/msg/detail/mode__type_support_c.cpp

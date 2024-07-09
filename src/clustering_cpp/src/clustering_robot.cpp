@@ -216,7 +216,6 @@ void clusteringNode::timer_callback()
         }
         else if(target_id != -1 )
         {
-            remote_controller = false;
             if(g_target_lost == 1)
             {
                 linear_ = 0.0;
@@ -224,6 +223,7 @@ void clusteringNode::timer_callback()
                 roi_center_x = 0.5;
                 roi_center_y = 0;
                 status = 0;
+                remote_controller = true;
                 std::cout << "lost\n";
             }
             else
@@ -238,6 +238,10 @@ void clusteringNode::timer_callback()
                     linear_ = 0.0;
                     angular_ = 0.0;
                 }
+                else if (linear_ >= 1.0)
+                {
+                    linear_ = 1.0;
+                }
 
                 if (abs(angular_) < M_PI/72)
                 {
@@ -246,6 +250,7 @@ void clusteringNode::timer_callback()
 
                 prev_target_distance = linear_;
                 prev_target_angle = angular_;
+                remote_controller = false;
 
                 g_target_detect = 1;
                 status = 1;

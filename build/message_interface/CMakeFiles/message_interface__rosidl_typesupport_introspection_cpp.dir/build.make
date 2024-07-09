@@ -81,7 +81,7 @@ rosidl_typesupport_introspection_cpp/message_interface/msg/detail/mode__rosidl_t
 rosidl_typesupport_introspection_cpp/message_interface/msg/detail/mode__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/message_interface/msg/Iscoast.idl
 rosidl_typesupport_introspection_cpp/message_interface/msg/detail/mode__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/message_interface/msg/State.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/robot/robot_ws/build/message_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/robot/robot_ws/build/message_interface/rosidl_typesupport_introspection_cpp__arguments.json
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/robot/robot_ws/build/message_interface/rosidl_typesupport_introspection_cpp__arguments.json
 
 rosidl_typesupport_introspection_cpp/message_interface/msg/detail/iscoast__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/message_interface/msg/detail/mode__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/message_interface/msg/detail/iscoast__rosidl_typesupport_introspection_cpp.hpp

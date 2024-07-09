@@ -86,7 +86,7 @@ rosidl_generator_c/message_interface/msg/mode.h: rosidl_adapter/message_interfac
 rosidl_generator_c/message_interface/msg/mode.h: rosidl_adapter/message_interface/msg/Iscoast.idl
 rosidl_generator_c/message_interface/msg/mode.h: rosidl_adapter/message_interface/msg/State.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/robot/robot_ws/build/message_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/robot/robot_ws/build/message_interface/rosidl_generator_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/robot/robot_ws/build/message_interface/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/message_interface/msg/detail/mode__functions.h: rosidl_generator_c/message_interface/msg/mode.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_interface/msg/detail/mode__functions.h
