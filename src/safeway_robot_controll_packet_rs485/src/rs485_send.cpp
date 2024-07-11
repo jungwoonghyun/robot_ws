@@ -80,7 +80,7 @@ void start_robot(COMM_HANDLE hComm)
 {
     // motion control mode: speed control
     // motion standstill(SS) start with zero speed (stopped) initially
-    format_motion_command(hComm, "REPTYPE=BU;CONMODE=SPEED;SPEED=0;START=SS");
+    format_motion_command(hComm, "REPTYPE=BU;NOP"); // CONMODE=SPEED;SPEED=0;START=SS or NOP
     msleep(10);
 }
 
