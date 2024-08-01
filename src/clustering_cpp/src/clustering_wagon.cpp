@@ -229,9 +229,9 @@ void clusteringNode::timer_callback()
                 {
                     linear_ = 0.0;
                 }
-                else if (linear_ > 1.2)
+                else if (linear_ > 1.3)
                 {
-                    linear_ = 1.2;
+                    linear_ = 1.3;
                 }
                 
                 if (abs(angular_) < M_PI/72)
@@ -261,9 +261,9 @@ void clusteringNode::timer_callback()
                 {
                     linear_ = 0.0;
                 }
-                else if (linear_ > 1.2)
+                else if (linear_ > 1.3)
                 {
-                    linear_ = 1.2;
+                    linear_ = 1.3;
                 }
                 
                 if (abs(angular_) < M_PI/72)
@@ -329,20 +329,12 @@ void clusteringNode::timer_callback()
     }
     else
     {
-        // if(count == 0)
-        // {
-            angular_ = 0;
-            linear_ = 0;
-            twist.angular.z = angular_;
-            twist.linear.x = linear_;
-            cmd_vel_pub->publish(twist);
-            // count++;
-            std::cout << "count 0\n";
-        // }
-        // else
-        // {
-        //     std::cout << "count 1\n";
-        // }
+        angular_ = 0;
+        linear_ = 0;
+        twist.angular.z = angular_;
+        twist.linear.x = linear_;
+        cmd_vel_pub->publish(twist);
+
         target_state.modenum = target_detecting_state;
     }
 

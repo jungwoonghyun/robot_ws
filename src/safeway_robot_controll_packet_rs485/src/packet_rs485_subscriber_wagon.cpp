@@ -138,7 +138,7 @@ private:
         }
         else
         {
-          format_motion_command(hComm, "SPEED@1=0;SPEED@2=0;UMODE=4,12,7", (int)spd_right, (int)spd_left);
+          format_motion_command(hComm, "SPEED@1=0;SPEED@2=0;UMODE=4,12,7;MPROFILE=SCURVE,25,%", (int)spd_right, (int)spd_left);
 
         }
         before_mode = mode_state;
@@ -152,7 +152,7 @@ private:
         }
         else
         {
-          format_motion_command(hComm, "SPEED@1=%d;SPEED@2=%d", (int)spd_right, (int)spd_left);
+          format_motion_command(hComm, "SPEED@1=%d;SPEED@2=%d;MPROFILE=SCURVE,25,%", (int)spd_right, (int)spd_left);
 
         }
         before_mode = mode_state;
@@ -168,7 +168,7 @@ private:
       }
       else
       {
-        format_motion_command(hComm, "SPEED@1=0;SPEED@2=0");
+        format_motion_command(hComm, "SPEED@1=0;SPEED@2=0;MPROFILE=SCURVE,25,%");
 
       }
       before_mode = mode_state;
