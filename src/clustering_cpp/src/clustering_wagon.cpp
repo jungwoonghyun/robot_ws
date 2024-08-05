@@ -316,8 +316,6 @@ void clusteringNode::timer_callback()
         }
     }
 
-    std::cout <<"controller_state " << controller_state << " ,id" << target_id << " ,target_detecting_state " << target_detecting_state << std::endl;
-
     if(controller_state == 1)
     {
         twist.angular.z = angular_;
@@ -561,25 +559,53 @@ int clusteringNode::roiDetect(std::vector<ObjInfo> obj_info)
 {
     int target_lost = -1;
 
-    for(size_t i = 0; i < obj_info.size(); i++)
+    if(target_detecting_state == 0)
     {
-        if( sqrt(pow(obj_info[i].position[0] - roi_center_x, 2) + pow(obj_info[i].position[1] - roi_center_y, 2)) < ROI_RANGE)
+        for(size_t i = 0; i < obj_info.size(); i++)
         {
-            roi_center_x = obj_info[i].position[0];
-            roi_center_y = obj_info[i].position[1];
-            target_lost = i;
-
-            if(target_detecting_state == 2)
+            if(sqrt(pow(obj_info[i].position[0] - roi_center_x, 2) + pow(obj_info[i].position[1] - roi_center_y, 2)) < ROI_RANGE
+            && obj_info[i].position[0] >= abs(sqrt(3)*obj_info[i].position[1]))
             {
-                roi_center_x = 0.5;
-                roi_center_y = 0;
-            }
+                roi_center_x = obj_info[i].position[0];
+                roi_center_y = obj_info[i].position[1];
+                target_lost = i;
 
-            return target_lost;
+                if(target_detecting_state == 2)
+                {
+                    roi_center_x = 0.5;
+                    roi_center_y = 0;
+                }
+
+                return target_lost;
+            }
+            else
+            {
+                target_lost = -1;
+            }
         }
-        else
+    }
+    else
+    {
+        for(size_t i = 0; i < obj_info.size(); i++)
         {
-            target_lost = -1;
+            if(sqrt(pow(obj_info[i].position[0] - roi_center_x, 2) + pow(obj_info[i].position[1] - roi_center_y, 2)) < ROI_RANGE)
+            {
+                roi_center_x = obj_info[i].position[0];
+                roi_center_y = obj_info[i].position[1];
+                target_lost = i;
+
+                if(target_detecting_state == 2)
+                {
+                    roi_center_x = 0.5;
+                    roi_center_y = 0;
+                }
+
+                return target_lost;
+            }
+            else
+            {
+                target_lost = -1;
+            }
         }
     }
 
